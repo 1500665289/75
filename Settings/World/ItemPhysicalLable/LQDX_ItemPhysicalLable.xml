@@ -1,0 +1,676 @@
+﻿<PhysicalLables><List>
+	
+	<Lable Name="Fix0"> 
+		<Effects>
+		</Effects>
+	</Lable>
+
+	<Lable Name="Fix1"> 
+		<Effects>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="MiaoHui"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="-60"/>
+			<li Kind="MaxLing" Addp="-0.3"/>
+			<li Kind="LingRecover" Addv="100"/>
+		</Effects>
+	</Lable>
+	<!--BOSS特殊标签-->
+
+	<!--基础标签-->
+	
+	<Lable Name="Jins"> <!--圣金-->
+		<Effects>
+			<li Kind="AttackPower" Addv="15"/>
+			<li Kind="FlySpeed" Addp="0.4"/>
+			<li Kind="MaxLing" Addv="-60"/>
+			<li Kind="KnockBackResistance" Addp="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Jinss"> <!--帝金-->
+		<Effects>
+			<li Kind="AttackPower" Addv="25"/>
+			<li Kind="FlySpeed" Addp="0.6"/>
+			<li Kind="MaxLing" Addv="-100"/>
+			<li Kind="KnockBackResistance" Addp="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Mus"> 
+		<Effects>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="0.3"/>
+			<li Kind="MaxLing" Addv="400"/>
+			<li Kind="Scale" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Muss"> 
+		<Effects>
+			<li Kind="LingRecover" Addp="0.6"/>
+			<li Kind="MaxLing" Addv="800"/>
+			<li Kind="Scale" Addp="0.3"/>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Shuis"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.3"/>
+			<li Kind="LingRecover" Addv="90"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="RotSpeed" Addv="40"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Shuiss"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.3"/>
+			<li Kind="LingRecover" Addv="150"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="RotSpeed" Addv="60"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Huos"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="10"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="LingRecover" Addv="-30"/>
+			<li Kind="MaxLing" Addv="100"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Huoss"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="20"/>
+			<li Kind="FlySpeed" Addp="0.3"/>
+			<li Kind="LingRecover" Addv="-40"/>
+			<li Kind="MaxLing" Addv="150"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Tus"> 
+		<Effects>
+			<li Kind="KnockBackAddition" Addv="0.6"/>
+			<li Kind="KnockBackResistance" Addv="1"/>
+			<li Kind="FlySpeed" Addp="-0.1"/>
+			<li Kind="RotSpeed" Addp="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Tuss"> 
+		<Effects>
+			<li Kind="KnockBackAddition" Addv="1"/>
+			<li Kind="KnockBackResistance" Addv="2"/>
+			<li Kind="FlySpeed" Addp="-0.1"/>
+			<li Kind="RotSpeed" Addp="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Nones"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="10"/>
+			<li Kind="MaxLing" Addv="200"/>
+			<li Kind="LingRecover" Addv="40"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="RotSpeed" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.5"/>
+			<li Kind="KnockBackResistance" Addv="0.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="Noness"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="20"/>
+			<li Kind="MaxLing" Addv="300"/>
+			<li Kind="LingRecover" Addv="60"/>
+			<li Kind="FlySpeed" Addp="0.3"/>
+			<li Kind="RotSpeed" Addp="0.3"/>
+			<li Kind="KnockBackAddition" Addv="0.7"/>
+			<li Kind="KnockBackResistance" Addv="0.7"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="PhysicalLables_Jin"> <!--金-->
+		<Effects>
+			<li Kind="AttackPower" Addv="10"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="MaxLing" Addv="-30"/>
+			<li Kind="KnockBackResistance" Addp="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="PhysicalLables_Mu"> 
+		<Effects>
+			<li Kind="MaxLing" Addv="200"/>
+			<li Kind="Scale" Addp="0.3"/>
+			<li Kind="LingRecover" Addp="0.15"/>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="PhysicalLables_Shui"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.3"/>
+			<li Kind="LingRecover" Addv="40"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="RotSpeed" Addv="20"/>
+		</Effects>
+	</Lable>
+	<Lable Name="PhysicalLables_Huo"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="5"/>
+			<li Kind="FlySpeed" Addp="0.1"/>
+			<li Kind="LingRecover" Addv="-20"/>
+			<li Kind="MaxLing" Addv="50"/>
+		</Effects>
+	</Lable>
+	<Lable Name="PhysicalLables_Tu"> 
+		<Effects>
+			<li Kind="KnockBackAddition" Addv="0.3"/>
+			<li Kind="KnockBackResistance" Addv="0.5"/>
+			<li Kind="FlySpeed" Addp="-0.1"/>
+			<li Kind="RotSpeed" Addp="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="PhysicalLables_None"> 
+		<Effects>
+			<li Kind="AttackPower" Addv="5"/>
+			<li Kind="MaxLing" Addv="100"/>
+			<li Kind="LingRecover" Addv="20"/>
+			<li Kind="FlySpeed" Addp="0.1"/>
+			<li Kind="RotSpeed" Addp="0.1"/>
+			<li Kind="KnockBackAddition" Addv="0.25"/>
+			<li Kind="KnockBackResistance" Addv="0.25"/>
+			<li Kind="TailLenght" Addp="0.5"/>
+			<li Kind="Scale" Addp="0.15"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Heavy1"> <!--沉重1-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.2"/>
+			<li Kind="KnockBackResistance" Addv="0.2"/>
+			<li Kind="RotSpeed" Addp="-0.2"/>
+			<li Kind="AttackRate" Addv="0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Heavy2"> <!--沉重2-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.4"/>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+			<li Kind="RotSpeed" Addp="-0.4"/>
+			<li Kind="KnockBackAddition" Addv="0.2"/>
+			<li Kind="KnockBackResistance" Addv="0.4"/>
+			<li Kind="AttackRate" Addv="0.4"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="Light1"> <!--轻盈1-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.1"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="RotSpeed" Addp="0.4"/>
+			<li Kind="KnockBackAddition" Addv="-0.2"/>
+			<li Kind="KnockBackResistance" Addv="-0.2"/>
+			<li Kind="AttackRate" Addv="-0.1"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="Light2"> <!--轻盈2-->
+		<Effects>
+			<li Kind="FlySpeed" Addp="0.4"/>
+			<li Kind="RotSpeed" Addp="0.6"/>
+			<li Kind="KnockBackAddition" Addv="-0.4"/>
+			<li Kind="KnockBackResistance" Addv="-0.4"/>
+			<li Kind="AttackRate" Addv="-0.2"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="LowDensity1"> <!--松散1-->
+		<Effects>
+			<li Kind="MaxLing" Addp="0.2"/>
+			<li Kind="LingRecover" Addp="-0.1"/>
+			<li Kind="KnockBackAddition" Addv="-0.2"/>
+			<li Kind="KnockBackResistance" Addv="0.3"/>
+			<li Kind="Scale" Addp="0.2"/>
+			<li Kind="TailLenght" Addp="0.4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="LowDensity2"> <!--松散2-->
+		<Effects>
+			<li Kind="MaxLing" Addp="0.4"/>
+			<li Kind="LingRecover" Addp="-0.2"/>
+			<li Kind="KnockBackAddition" Addv="-0.4"/>
+			<li Kind="KnockBackResistance" Addv="0.6"/>
+			<li Kind="Scale" Addp="0.4"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="HighDensity1"> <!--紧密1-->
+		<Effects>
+			<li Kind="MaxLing" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="0.1"/>
+			<li Kind="KnockBackAddition" Addv="0.4"/>
+			<li Kind="KnockBackResistance" Addv="-0.1"/>
+			<li Kind="Scale" Addp="-0.2"/>
+			<li Kind="TailLenght" Addp="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="HighDensity2"> <!--紧密2-->
+		<Effects>
+			<li Kind="MaxLing" Addp="-0.3"/>
+			<li Kind="LingRecover" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.6"/>
+			<li Kind="KnockBackResistance" Addv="-0.2"/>
+			<li Kind="Scale" Addp="-0.4"/>
+			<li Kind="TailLenght" Addp="-0.4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Soft1"> <!--柔软1-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.2"/>
+			<li Kind="LingRecover" Addp="0.2"/>
+			<li Kind="MaxLing" Addp="0.2"/>
+			<li Kind="RotSpeed" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addv="-0.3"/>
+			<li Kind="KnockBackResistance" Addv="0.3"/>
+			<li Kind="AttackRate" Addv="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Soft2"> <!--柔软2-->
+		<Effects>
+			<li Kind="LingRecover" Addp="0.4"/>
+			<li Kind="MaxLing" Addp="0.4"/>
+			<li Kind="RotSpeed" Addp="0.4"/>
+			<li Kind="KnockBackAddition" Addv="-0.6"/>
+			<li Kind="KnockBackResistance" Addv="0.6"/>
+			<li Kind="AttackRate" Addv="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Hard1"> <!--坚硬1-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.3"/>
+			<li Kind="LingRecover" Addp="-0.2"/>
+			<li Kind="MaxLing" Addp="-0.1"/>
+			<li Kind="KnockBackAddition" Addv="0.3"/>
+			<li Kind="KnockBackResistance" Addv="-0.1"/>
+			<li Kind="AttackRate" Addv="0.1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Hard2"> <!--坚硬2-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.5"/>
+			<li Kind="LingRecover" Addp="-0.4"/>
+			<li Kind="MaxLing" Addp="-0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.6"/>
+			<li Kind="KnockBackResistance" Addv="-0.2"/>
+			<li Kind="AttackRate" Addv="0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Smooth1"> <!--光滑1-->
+		<Effects>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="KnockBackResistance" Addv="0.2"/>
+			<li Kind="LingRecover" Addp="-0.1"/>
+			<li Kind="AttackRate" Addv="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Smooth2"> <!--光滑2-->
+		<Effects>
+			<li Kind="FlySpeed" Addp="0.4"/>
+			<li Kind="KnockBackResistance" Addv="0.4"/>
+			<li Kind="LingRecover" Addp="-0.2"/>
+			<li Kind="AttackRate" Addv="-0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Rough1"> <!--粗糙1-->
+		<Effects>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+			<li Kind="RotSpeed" Addp="-0.1"/>
+			<li Kind="MaxLing" Addp="0.2"/>
+			<li Kind="KnockBackResistance" Addv="-0.1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Rough2"> <!--粗糙2-->
+		<Effects>
+			<li Kind="FlySpeed" Addp="-0.4"/>
+			<li Kind="RotSpeed" Addp="-0.2"/>
+			<li Kind="MaxLing" Addp="0.3"/>
+			<li Kind="KnockBackResistance" Addv="-0.2"/>
+		</Effects>
+	</Lable>
+	
+	<!--进阶标签-->
+	<Lable Name="Big"> <!--大-->
+		<Effects>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackPower" Addp="0.3"/>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+			<li Kind="RotSpeed" Addp="-0.2"/>
+			<li Kind="MaxLing" Addp="0.3"/>
+			<li Kind="KnockBackAddition" Addp="0.5"/>
+			<li Kind="KnockBackResistance" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Small"> <!--小-->
+		<Effects>
+			<li Kind="Scale" Addp="-0.6"/>
+			<li Kind="AttackPower" Addp="-0.3"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="RotSpeed" Addp="0.2"/>
+			<li Kind="MaxLing" Addp="-0.3"/>
+			<li Kind="LingRecover" Addp="-0.2"/>
+			<li Kind="AttackRate" Addp="-0.3"/>
+			<li Kind="KnockBackAddition" Addp="-0.5"/>
+			<li Kind="KnockBackResistance" Addp="-0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Sharp1"> <!--+锐器-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.6"/>
+			<li Kind="FlySpeed" Addp="0.4"/>
+			<li Kind="RotSpeed" Addp="0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Sharp"> <!--锐器-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.2"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="RotSpeed" Addp="0.2"/>
+		</Effects>
+	</Lable>	
+	<Lable Name="Blunt1"> <!--+钝器-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1"/>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="-0.3"/>
+			<li Kind="RotSpeed" Addp="-0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.4"/>
+			<li Kind="KnockBackAddition" Addv="0.3"/>
+			<li Kind="AttackRate" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Blunt"> <!--钝器-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.4"/>
+			<li Kind="FlySpeed" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="-0.3"/>
+			<li Kind="RotSpeed" Addp="-0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.2"/>
+			<li Kind="KnockBackAddition" Addv="0.2"/>
+			<li Kind="AttackRate" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Elastic"> <!--弹性-->
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="0.8"/>
+			<li Kind="KnockBackResistance" Addv="0.4"/>
+			<li Kind="FlySpeed" Addp="0.5"/>
+			<li Kind="MaxLing" Addp="0.6"/>
+			<li Kind="AttackRate" Addp="-0.4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Ring"> <!--环-->
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="0.4"/>
+			<li Kind="KnockBackAddition" Addv="0.4"/>
+			<li Kind="MaxLing" Addp="-0.6"/>
+			<li Kind="AttackRate" Addp="-0.4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Precise"> <!--精密物件-->
+		<Effects>
+			<li Kind="LingRecover" Addp="0.4"/>
+			<li Kind="AttackPower" Addv="-10"/>
+			<li Kind="KnockBackResistance" Addv="-0.2"/>
+			<li Kind="Scale" Addp="-0.2"/>
+			<li Kind="TailLenght" Addp="-0.2"/>
+			<li Kind="AttackRate" Addv="-0.1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="SmallThing1"> <!--极小物件-->
+		<Effects>
+			<li Kind="MaxLing" Addp="-0.4"/>
+			<li Kind="FlySpeed" Addp="0.4"/>
+			<li Kind="RotSpeed" Addp="0.4"/>
+			<li Kind="KnockBackAddition" Addv="-0.6"/>
+			<li Kind="KnockBackResistance" Addv="-0.6"/>
+			<li Kind="Scale" Addp="-0.5"/>
+			<li Kind="TailLenght" Addp="-0.5"/>
+			<li Kind="AttackRate" Addv="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Gravel"> <!--砂砾状-->
+		<Effects>
+			<li Kind="LingRecover" Addp="0.4"/>
+			<li Kind="AttackPower" Addv="10"/>
+			<li Kind="FlySpeed" Addp="0.2"/>
+			<li Kind="RotSpeed" Addp="0.3"/>
+			<li Kind="KnockBackAddition" Addv="-0.4"/>
+			<li Kind="KnockBackResistance" Addv="0.8"/>
+			<li Kind="Scale" Addp="0.3"/>
+			<li Kind="TailLenght" Addp="0.6"/>
+			<li Kind="AttackRate" Addv="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Liquid"> <!--液状-->
+		<Effects>
+			<li Kind="LingRecover" Addp="0.4"/>
+			<li Kind="AttackPower" Addv="20"/>
+			<li Kind="MaxLing" Addp="1"/>
+			<li Kind="KnockBackAddition" Addv="-1"/>
+			<li Kind="KnockBackResistance" Addv="2"/>
+			<li Kind="TailLenght" Addp="0.6"/>
+			<li Kind="AttackRate" Addv="-0.9"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="GreatThing_AttackLow"> <!--圣物-小攻-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Attack1"> <!--圣物-攻-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Attack2"> <!--帝物-攻-->
+		<Effects>
+			<li Kind="AttackPower" Addp="2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Attack"> <!--天物-攻-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Ling"> <!--圣物-灵-->
+		<Effects>
+			<li Kind="LingRecover" Addp="0.6"/>
+			<li Kind="MaxLing" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Ling1"> <!--帝物-灵-->
+		<Effects>
+			<li Kind="LingRecover" Addp="1.8"/>
+			<li Kind="MaxLing" Addp="1.8"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Knock"> <!--圣物-冲击-->
+		<Effects>
+			<li Kind="KnockBackAddition" Addv="0.4"/>
+			<li Kind="KnockBackResistance" Addv="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_Knock1"> <!--帝物-冲击-->
+		<Effects>
+			<li Kind="KnockBackAddition" Addv="1"/>
+			<li Kind="KnockBackResistance" Addv="1.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dao"> <!--刀-->
+		<Effects>
+			<li Kind="AttackRate" Addv="-0.4"/>
+			<li Kind="RotSpeed" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Jian"> <!--剑-->
+		<Effects>
+			<li Kind="MaxLing" Addp="1"/>
+			<li Kind="LingRecover" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="Xian"> <!--Shit-->
+		<Damages><!--法宝物理-->	
+			<li PartName="TheWholeBody" Name="HolyJudgement" Rate="3"/>
+		</Damages>
+	</Lable>
+	<Lable Name="Shit"> <!--Shit-->
+		<Damages><!--法宝物理-->	
+			<li PartName="TheWholeBody" Name="Shit" Rate="1"/>
+		</Damages>
+	</Lable>
+	
+	<Lable Name="GreatThing_Ling_JinLian"> <!--圣物-灵-金莲神作-->
+		<Effects>
+			<li Kind="MaxLing" Addp="99"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="GreatThing_Attack_TianLang"> <!--圣物-攻-天狼钉-->
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.5"/>
+			<li Kind="Scale" Addp="-0.9"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_YiJian"> <!--一剑-->
+		<Effects>
+			<li Kind="AttackRate" Addv="-10"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="9"/>
+			<li Kind="LingRecover" Addp="0.6"/>
+			<li Kind="MaxLing" Addp="-0.8"/>
+			<li Kind="KnockBackAddition" Addv="9"/>
+			<li Kind="KnockBackResistance" Addv="5"/>
+			<li Kind="Scale" Addp="4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_BaiLing"> <!--百灵不归-->
+		<Effects>
+			<li Kind="MaxLing" Addp="6"/>
+			<li Kind="LingRecover" Addp="2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_LingSha"> <!--灵砂秒回-->
+		<Effects>
+			<li Kind="MaxLing" Addp="-0.2"/>
+			<li Kind="LingRecover" Addp="0.3"/>
+			<li Kind="FlySpeed" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_QiJue"> <!--七绝-->
+		<Effects>
+			<li Kind="MaxLing" Addp="-0.5"/>
+			<li Kind="LingRecover" Addp="0.3"/>
+			<li Kind="FlySpeed" Addp="0.6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GreatThing_FaXiou"> <!--法修-->
+		<Effects>
+			<li Kind="AttackPower" Addp="-1"/>
+			<li Kind="MaxLing" Addv="700"/>
+			<li Kind="LingRecover" Addv="1000"/>
+			<li Kind="FlySpeed" Addp="1"/>
+			<li Kind="AttackRate" Addv="2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="XRL"> <!--仙人泪-->
+		<Effects>
+			<li Kind="AttackPower" Addp="-0.3"/>
+			<li Kind="MaxLing" Addp="-0.85"/>
+			<li Kind="LingRecover" Addv="-95"/>
+			<li Kind="Scale" Addp="-0.5"/>
+			<li Kind="AttackRate" Addv="-2"/>
+			<li Kind="RotSpeed" Addp="1.5"/>
+			<li Kind="KnockBackAddition" Addv="-2"/>
+			<li Kind="KnockBackResistance" Addv="2"/>
+			<li Kind="TailLenght" Addp="6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="BCJ"> <!--北辰剑-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1.8"/>
+			<li Kind="MaxLing" Addp="3"/>
+			<li Kind="LingRecover" Addp="3"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addv="0"/>
+			<li Kind="RotSpeed" Addp="1.5"/>
+			<li Kind="FlySpeed" Addp="1"/>
+			<li Kind="KnockBackAddition" Addv="2"/>
+			<li Kind="KnockBackResistance" Addv="1"/>
+			<li Kind="TailLenght" Addp="6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZMH"> <!--子母环-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1"/>
+			<li Kind="MaxLing" Addp="-0.3"/>
+			<li Kind="LingRecover" Addp="1.7"/>
+			<li Kind="Scale" Addp="0.2"/>
+			<li Kind="AttackRate" Addv="-0.2"/>
+			<li Kind="RotSpeed" Addp="1"/>
+			<li Kind="FlySpeed" Addp="0.3"/>
+			<li Kind="KnockBackAddition" Addv="2"/>
+			<li Kind="KnockBackResistance" Addv="-1"/>
+			<li Kind="TailLenght" Addp="6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="XRYY"> <!--血肉呓语-->
+		<Effects>
+			<li Kind="AttackPower" Addp="0"/>
+			<li Kind="MaxLing" Addp="2"/>
+			<li Kind="LingRecover" Addp="1.2"/>
+			<li Kind="Scale" Addp="0.4"/>
+			<li Kind="AttackRate" Addv="-0.5"/>
+			<li Kind="RotSpeed" Addp="1.5"/>
+			<li Kind="FlySpeed" Addp="-0.3"/>
+			<li Kind="KnockBackAddition" Addv="-3"/>
+			<li Kind="KnockBackResistance" Addv="2"/>
+			<li Kind="TailLenght" Addp="6"/>
+		</Effects>
+	</Lable>
+	<Lable Name="DNP"> <!--大涅槃-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1"/>
+			<li Kind="MaxLing" Addp="2"/>
+			<li Kind="LingRecover" Addp="0"/>
+			<li Kind="Scale" Addp="2"/>
+			<li Kind="AttackRate" Addv="-0.5"/>
+			<li Kind="RotSpeed" Addp="1.5"/>
+			<li Kind="FlySpeed" Addp="-0.3"/>
+			<li Kind="KnockBackAddition" Addv="3"/>
+			<li Kind="KnockBackResistance" Addv="2"/>
+			<li Kind="TailLenght" Addp="-1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="QLJ"> <!--青莲剑-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1.8"/>
+			<li Kind="MaxLing" Addp="3"/>
+			<li Kind="LingRecover" Addp="3"/>
+			<li Kind="Scale" Addp="0"/>
+			<li Kind="AttackRate" Addv="-0.5"/>
+			<li Kind="RotSpeed" Addp="0.5"/>
+			<li Kind="FlySpeed" Addp="1"/>
+			<li Kind="KnockBackAddition" Addv="1"/>
+			<li Kind="KnockBackResistance" Addv="0.5"/>
+			<li Kind="TailLenght" Addp="6"/>
+		</Effects>
+	</Lable>
+	
+	
+	
+</List></PhysicalLables> 

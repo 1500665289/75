@@ -1,0 +1,12 @@
+﻿<Properties><List>	
+		
+	<Property Name="LsLingMaxValue">
+		<MathProperty>
+			<Value>
+				<Expression>LingShouQiGan^2*300+20000+LsFat*500000</Expression>
+			</Value>
+		</MathProperty>
+		<MaxValue>100000000</MaxValue>
+	</Property>
+
+</List></Properties>

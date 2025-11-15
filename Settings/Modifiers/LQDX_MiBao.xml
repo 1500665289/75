@@ -1,0 +1,118 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="Modifier_SpNpc_FabaoMiao" Type="Normal">
+		<DisplayName>跃</DisplayName>
+		<Desc>此人御器灵动，剑光分化跳跃。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-0.9"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_XRL" Type="Normal">
+		<DisplayName>仙人泪</DisplayName>
+		<Desc>仙人之泪，永不下坠。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/BodyAngerFire"/>
+		</EffectBind>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_BCJ" Type="Normal">
+		<DisplayName>帝剑</DisplayName>
+		<Desc>剑中帝者，镇压万剑。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/BodyAngerFire"/>
+		</EffectBind>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_BCJ_debuff" Type="Normal">
+		<DisplayName>镇压</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>9</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoCoolDownAddP" AddV="9"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" BAddP="-999"/>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="-0.5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_ZMH" Type="Normal">
+		<DisplayName>受损</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LQDX_MiBao_ZMH</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_ZMH_Day" Type="Normal">
+		<DisplayName>白日</DisplayName>
+		<Desc>煌煌白日，烈烈炎魂。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/BodyAngerFire"/>
+		</EffectBind>
+		<LuaClassName>LQDX_MiBao_ZMH_Day</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_ZMH_Night" Type="Normal">
+		<DisplayName>玄夜</DisplayName>
+		<Desc>泠泠玄夜，肃肃杀机。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LQDX_MiBao_ZMH_Night</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_XRYY" Type="Normal">
+		<DisplayName>噬灵</DisplayName>
+		<Desc>饥饿凶魂，吞噬灵肉。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/BodyAngerFire"/>
+		</EffectBind>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_DNP" Type="Normal">
+		<DisplayName>六道</DisplayName>
+		<Desc>阿弥陀佛，我佛慈悲。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoCoolDownAddP" AddV="-9"/>
+			<li Name="NpcFight_FabaoNum" AddV="-999"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="9999"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" BAddP="99"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="6"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/BodyAngerFire"/>
+		</EffectBind>
+	</Modifier> 
+	<Modifier Name="LQDX_MiBao_QLJ" Type="Normal">
+		<DisplayName>青莲</DisplayName>
+		<Desc>一曲长歌，一剑天涯。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/BodyAngerFire"/>
+		</EffectBind>
+	</Modifier> 
+</List></ModifierDefs>

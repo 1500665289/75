@@ -1,0 +1,378 @@
+﻿<Gongs><List>
+	<Gong Name="Gong_32">
+		<DisplayName>琼楼剑御玄典</DisplayName>
+		<Desc>曾经二十六层楼的嫡传功法，与三清有密切的联系，似乎是丹霞山炼器法的源头。在上古时期，有两个以炼器与剑修著称的门派，一个是御剑山庄，一个是二十六层楼，而后者更注重炼器为修行。如今两大宗门皆已隐世，青莲剑宗与丹霞山是其精神传承。</Desc>
+		<SelectDesc>此法擅长炼器与御剑，战力卓绝，有大量特殊秘宝传承，可解析吞噬天下众器，但修炼依靠大量炼宝才可长进，十分艰难。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>8,2,-1,6,4</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>kaiguang</li>
+			<li>ciqi</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>观天下</DisplayName>
+				<Desc>琼楼初境，以养知为修行目标，从先人之智观天地之道，为登楼做准备。</Desc>
+				<Value>100</Value>
+				<Necks>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>览群书</DisplayName>
+						<Desc>欲寻天地之道，必先博览群书。文学基础入门考试。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_FunPoem"/>
+						</ItemCost>
+					</Neck>
+					
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>闻希声</DisplayName>
+						<Desc>欲闻天地之音，必先聆声听乐。音乐基础入门考试。</Desc>
+						<CostTime>150</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<FailedChangeAdd>0.3</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_FunMusic"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>明数理</DisplayName>
+						<Desc>欲明天地之理，必先衍道术算。数理基础入门考试。</Desc>
+						<CostTime>150</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<FailedChangeAdd>0.3</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_FunChess"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>构天工</DisplayName>
+						<Desc>欲构天地之图，必先描画名作。绘画基础入门考试</Desc>
+						<CostTime>150</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<FailedChangeAdd>0.3</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_FunPainting"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>观天下</DisplayName>
+						<Desc>读万卷书，行万里路。实践，才是检验真理的唯一标准。只有历练红尘，观天下沉浮如翻书，视野与认知方可支撑未来俢行。</Desc>
+						<ExploreValue>2</ExploreValue>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage2" Level="5">
+				<DisplayName>舞众器</DisplayName>
+				<Desc>琼楼第二境，以武知兵，炼体之余为成炉奠基。</Desc>
+				<Value>15000</Value>
+				<Necks>
+					<Neck Location="0.33" Kind="Chance">
+						<DisplayName>入微</DisplayName>
+						<Desc>欲炼世间器，必明何为器。先以微器为始。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>Physique_1_1_10</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_WeaponKnife1"/>
+							<Item name="Item_WeaponLance1"/>
+							<Item name="Item_WeaponSword1"/>
+							<Item name="Item_WeaponHalbert1"/>
+							<Item name="Item_WeaponAxeRing1"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.66" Kind="Chance">
+						<DisplayName>观宏</DisplayName>
+						<Desc>欲炼世间器，必明何为器。后以宏器为继。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>Physique_1_1_10</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_WeaponKnife2"/>
+							<Item name="Item_WeaponLance2"/>
+							<Item name="Item_WeaponSword2"/>
+							<Item name="Item_WeaponHalbert2"/>
+							<Item name="Item_WeaponAxeRing2"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.99" Kind="Chance">
+						<DisplayName>中庸</DisplayName>
+						<Desc>欲炼世间器，必明何为器。末以常器为终。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>Physique_1_1_10</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_WeaponKnife0"/>
+							<Item name="Item_WeaponLance0"/>
+							<Item name="Item_WeaponSword0"/>
+							<Item name="Item_WeaponHalbert0"/>
+							<Item name="Item_WeaponAxeRing0"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Work">
+						<DisplayName>舞众器</DisplayName>
+						<Desc>身体，是革命的本钱。惟有精通18般武艺，唱跳打球，才可以体成炉。所以，锻炼身体吧，后浪！</Desc>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>	
+			
+			<Stage Name="Stage3" Level="6">
+				<DisplayName>熔万金</DisplayName>
+				<Desc>琼楼第三境，化体为炉，凝灵成火，为剑炉金丹做足准备。</Desc>
+				<Value>140000</Value>
+				<Necks>
+					<Neck Location="0.45" Kind="Chance">
+						<DisplayName>气海化炉</DisplayName>
+						<Desc>纳五行神铁入体，支撑起天人之体脏，筑剑炉之根基，同时不排斥灵气。\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>250</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<Damages>
+							<li PartKind="Flesh" Name="Scald1" Rate="0.2"/>
+							<li PartKind="Flesh" Name="Scald2" Rate="0.4"/>
+							<li PartKind="Meridian" Name="ElixirFieldShock" Rate="0.4"/>
+						</Damages>
+					</Neck>
+					
+					<Neck Location="0.99" Kind="Thunder">
+						<DisplayName>锻灵成火</DisplayName>
+						<Desc>以天劫之力锻合神铁，熔金为炉，为成剑炉做最后准备。</Desc>
+						<ThunderValue>10000</ThunderValue>
+						<NeckCountdown>33333</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>天地三清炉</DisplayName>
+						<Desc>精气神合一，结成金丹，奠定道基。</Desc>
+						<Esoterocas>
+							<li>Magic_ClosedDoor_1</li>
+						</Esoterocas>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			
+			<Stage Name="Stage4" Level="9">
+				<DisplayName>剑炉</DisplayName>
+				<Desc>琼楼终境，可吞噬天下众器，拘器魂于体，化其为镇，踏出登楼第一步。</Desc>
+				<Value>900000</Value>
+				<Necks>
+					<Neck Location="0.03" Kind="Thunder">
+						<DisplayName>初器劫</DisplayName>
+						<Desc>初次解器成功而生的天劫，无甚威力，反为因合道而生的天地祝贺之意。</Desc>
+						<ThunderValue>1000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.99" Kind="Thunder">
+						<DisplayName>成器劫</DisplayName>
+						<Desc>解得世间器后，天地所成之劫，威力惊人。凡过此劫之人，皆可登楼而行，睥睨天下。</Desc>
+						<ThunderValue>99999</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>第一层楼</DisplayName>
+						<Desc>第一层楼，阳光明媚，窗外的青藤爬进了我的眼。</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>1</FailedChangeAdd>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage5" Level="10">
+				<DisplayName>登楼</DisplayName>
+				<Desc>登顶之途，二十六层楼，二十七杯酒，一步一劫，成山巅剑仙。</Desc>
+				<Value>800000</Value>
+				<Necks>
+					<Neck Location="0.125" Kind="Thunder">
+						<DisplayName>第二层楼</DisplayName>
+						<Desc>第二层楼，春风轻漾，叶梢轻拂着我的眉。</Desc>
+						<ThunderValue>20000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.25" Kind="Thunder">
+						<DisplayName>第三层楼</DisplayName>
+						<Desc>第三层楼，鸟儿鸣叫，轻啄着我的心。</Desc>
+						<ThunderValue>30000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.375" Kind="Thunder">
+						<DisplayName>第四层楼</DisplayName>
+						<Desc>第四层楼，影上窗楣，让我忘了我是谁。</Desc>
+						<ThunderValue>40000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>第五层楼</DisplayName>
+						<Desc>第五层楼，少年将飞，穿越层林叠翠……</Desc>
+						<ThunderValue>50000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.625" Kind="Thunder">
+						<DisplayName>第六层楼</DisplayName>
+						<Desc>第六层楼，拾柴刀行，又恐惊着动人的山鬼。</Desc>
+						<ThunderValue>60000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.75" Kind="Thunder">
+						<DisplayName>第七层楼</DisplayName>
+						<Desc>第七层楼，穿林无声，雾重云冷湿硬了衣襟。</Desc>
+						<ThunderValue>70000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.875" Kind="Thunder">
+						<DisplayName>第八层楼</DisplayName>
+						<Desc>第八层楼，雨打蕉叶，鞋上落了只去年的蝉蜕。</Desc>
+						<ThunderValue>80000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>第九层楼</DisplayName>
+						<Desc>第九层楼，惘然回首，来时路如路畔细石般断碎。</Desc>
+						<ThunderValue>90000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage6" Level="11">
+				<DisplayName>登楼</DisplayName>
+				<Desc>登顶之途，二十六层楼，二十七杯酒，一步一劫，成山巅剑仙。</Desc>
+				<Value>800000</Value>
+				<Necks>
+					<Neck Location="0.125" Kind="Thunder">
+						<DisplayName>第十层楼</DisplayName>
+						<Desc>第十层楼，结藤而上，云端上的嘲笑声来自猴儿的嘴。</Desc>
+						<ThunderValue>180000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.25" Kind="Thunder">
+						<DisplayName>第十一层楼</DisplayName>
+						<Desc>十一层楼，群山苍翠，有个老翁枕石而醉。</Desc>
+						<ThunderValue>220000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.375" Kind="Thunder">
+						<DisplayName>第十二层楼</DisplayName>
+						<Desc>十二层楼，临渊而窥，山崖还给年岁。</Desc>
+						<ThunderValue>240000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>第十三层楼</DisplayName>
+						<Desc>十三层楼，蜗牛有角，彼世界如此世界一般疲惫。</Desc>
+						<ThunderValue>260000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.624" Kind="Thunder">
+						<DisplayName>第十四层楼</DisplayName>
+						<Desc>十四层楼，迷眼渐累，火堆旁的人们渐要沉睡……</Desc>
+						<ThunderValue>280000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.75" Kind="Thunder">
+						<DisplayName>第十五层楼</DisplayName>
+						<Desc>十五层楼，经闲多年，腐叶下的陶范积着旧旧的灰。</Desc>
+						<ThunderValue>300000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.875" Kind="Thunder">
+						<DisplayName>第十六层楼</DisplayName>
+						<Desc>十六层楼，鸿落冬原，白雪把爪印视作累赘。</Desc>
+						<ThunderValue>320000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>第十七层楼</DisplayName>
+						<Desc>十七层楼，望天一眼，云烟消散如云烟。</Desc>
+						<ThunderValue>340000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage7" Level="12">
+				<DisplayName>登楼</DisplayName>
+				<Desc>登顶之途，二十六层楼，二十七杯酒，一步一劫，成山巅剑仙。</Desc>
+				<Value>800000</Value>
+				<Necks>
+					<Neck Location="0.125" Kind="Thunder">
+						<DisplayName>第十八层楼</DisplayName>
+						<Desc>十八层楼，踩地一步，旧灰新雪相融无踪。</Desc>
+						<ThunderValue>360000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.25" Kind="Thunder">
+						<DisplayName>第十九层楼</DisplayName>
+						<Desc>十九层楼，重见青山，料青山看我亦妩媚。</Desc>
+						<ThunderValue>720000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.375" Kind="Thunder">
+						<DisplayName>第二十层楼</DisplayName>
+						<Desc>二十层楼，砍柴为篱，种三株桃树。</Desc>
+						<ThunderValue>81000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>第二十一层楼</DisplayName>
+						<Desc>二十一层楼，撷禾为米，再酿两瓮清酒淡如水。</Desc>
+						<ThunderValue>86000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.625" Kind="Thunder">
+						<DisplayName>第二十二层楼</DisplayName>
+						<Desc>二十二层楼，摘花捻汁，把新妇的眉心染醉。</Desc>
+						<ThunderValue>1080000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.75" Kind="Thunder">
+						<DisplayName>第二十三层楼</DisplayName>
+						<Desc>二十三层楼，爆竹声声，旧屋新啼不曾觉累。</Desc>
+						<ThunderValue>1690000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="0.875" Kind="Thunder">
+						<DisplayName>第二十四层楼</DisplayName>
+						<Desc>二十四层楼，小鹿呦呦，唤小丫剪几枝梅热两壶酒。</Desc>
+						<ThunderValue>2390000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>第二十五层楼</DisplayName>
+						<Desc>二十五层楼，想起父亲，窗外的雨点坠了下来。</Desc>
+						<ThunderValue>3330000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage8" Level="13">
+				<DisplayName>登楼</DisplayName>
+				<Desc>登顶之途，二十六层楼，二十七杯酒，一步一劫，成山巅剑仙。</Desc>
+				<Value>260000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>第二十六层楼</DisplayName>
+						<Desc>二十六层楼，乌蝇不飞，若心悸的你我躲在叶下看秋雨渐衰。</Desc>
+						<ThunderValue>9990000</ThunderValue>
+						<NeckCountdown>1</NeckCountdown>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>登顶</DisplayName>
+						<Desc>弹几点泪，轻轻放下酒杯。</Desc>
+						<NeckCountdown>320000</NeckCountdown>
+						<ThunderValue>320000</ThunderValue>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

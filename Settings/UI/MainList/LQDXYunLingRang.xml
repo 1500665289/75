@@ -1,0 +1,6 @@
+﻿<MainList><List>	
+
+	<Data Kind="Builds" Type="炼器大修" Unlock="0" CMDType="Build" Name="LQDXBaGuaLu"/>
+	<Data Kind="Builds" Type="炼器大修" Unlock="0" CMDType="Build" Name="LQDXWeaponMaker"/>
+	
+</List></MainList>

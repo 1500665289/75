@@ -1,0 +1,247 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="LQDX_fstbhm" Type="Normal">
+		<DisplayName>封神天兵</DisplayName>
+		<Desc>使用封神天兵的后遗症，元神进入寂灭9天。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>5400</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Modifiers>
+			<li>Modifier_Item_ZaoHuaYuLu1</li>
+		</Modifiers>
+		<Damages>
+			<li Part="Brain" Damage="ZaoHuaYuLu_YuanShenJiMie" Value="0.8"/>
+		</Damages>
+	</Modifier> 
+
+	<Modifier Name="LQDX_xb_debuff" Type="Normal">
+		<DisplayName>星辰封锁</DisplayName>
+		<Desc>法宝的威力与灵气上限被强行封印。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>90</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="-999"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-999"/>
+
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LQDX摘星剑" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="-0.6"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="3"/>
+
+		</Properties>
+	</Modifier> 
+
+<Modifier Name="LQDX星汉腾光剑阵" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="3"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="30"/>
+
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="LQDX求知之境1" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="10"/>
+	<li Name="MindStateBaseValue" AddV="5"/>
+	<li Name="FabaoMake_SuccessRateAddV" AddV="0.1"/>
+
+		</Properties>
+	</Modifier> 
+
+<Modifier Name="LQDX求知之境2" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="50"/>
+	<li Name="MindStateBaseValue" AddV="5"/>
+	<li Name="FabaoMake_SuccessRateAddV" AddV="0.3"/>
+
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LQDX求知之境3" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="120"/>
+	<li Name="MindStateBaseValue" AddV="5"/>
+	<li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>
+
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LQDX求知之境4" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="360"/>
+	<li Name="MindStateBaseValue" AddV="5"/>
+	<li Name="FabaoMake_SuccessRateAddV" AddV="0.7"/>
+
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LQDX开炉八法" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="-0.5"/>
+	<li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>
+	<li Name="FabaoMake_LingInheritRateAddV" AddV="1"/>
+	<li Name="FabaoMake_QualityAddV" AddV="1"/>
+
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="LQDX天海琅星魂意" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="3"/>
+	<li Name="NpcFight_SpellPowerAddP" AddP="50"/>
+	<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="5"/>
+		</Skills>
+	</Modifier> 
+	
+	
+	<Modifier Name="LQDX天火开神秀" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="-99"/>
+	<li Name="FabaoMake_LingInheritRateAddV" AddV="-9"/>
+	<li Name="NpcFight_FabaoPowerAddP" AddP="12"/>
+	<li Name="NpcFight_FabaoLingRecoverAddP" AddP="25"/>
+	<li Name="NpcFight_FabaoMaxLingAddP" AddP="25"/>
+	<li Name="FabaoMake_TwelveRateChance" AddV="1"/>
+
+		</Properties>
+		<Skills>
+			<li Name="Manual" LevelOver="5"/>
+		</Skills>
+	</Modifier> 
+
+<Modifier Name="LQDX析构法宝" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-99"/>
+
+		</Properties>
+		<LuaClassName>LQDX_XGFB</LuaClassName>
+	</Modifier> 
+
+	<Modifier Name="LQDX陨日剑" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="-4"/>
+		<li Name="NpcFight_FabaoMaxLingAddP" BAddP="9"/>
+		<li Name="NpcFight_FabaoLingRecoverAddP" BAddP="-0.3"/>
+
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="LQDX煌空斩真剑意" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="5"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.15"/>
+
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="15"/>
+		</Skills>
+	</Modifier> 
+
+	<Modifier Name="LQDX丛云剑意" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" BAddP="0.2"/>
+
+		</Properties>
+		<Skills>
+			<li Name="Barrier" LevelOver="-3"/>
+		</Skills>
+	</Modifier> 
+
+
+
+	<Modifier Name="LQDX灵火百纹锻体" Type="Normal">
+		<DisplayName></DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.2"/>
+	<li Name="FabaoMake_LingInheritRateAddV" AddV="0.6"/>
+
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="-3"/>
+		</Skills>
+	</Modifier> 
+
+
+</List></ModifierDefs>

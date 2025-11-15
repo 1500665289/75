@@ -1,0 +1,629 @@
+﻿<Stories><List>
+		
+		
+
+		<Story Name="LQDXSecrets1"  Parent="BaseFillingStory">
+		<DisplayName>疯老人</DisplayName>
+		<Desc>一位疯疯癫癫的老人快速游走于几个修行者之中，身影闪烁间，大锤已经击碎了一位年轻金丹修士的脑袋，红白之物溅射而出，宛如一个破烂的西瓜，他舔了舔脸上的血污，望了你一眼...</Desc>
+		<Selections>
+			<li>
+				<Display>“前。前辈，你好。。”</Display> 
+				<Tip>金丹期</Tip>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("LQDXSecrets1_1");
+				</OKResult>
+				<NOResult>me:AddMsg("老人白了一眼，[NAME]受伤甚重。");me:AddDamgeFromCache(story.DamageCache,4,0.9);</NOResult>
+			</li>
+			<li>
+				<Display>转头就跑</Display>
+				<OKResult>	
+				me:AddMsg("[NAME]想了想，决定还是不冒险，转身离去。");
+				</OKResult>
+			</li>
+		</Selections>
+		</Story>
+		
+		<Story Name="LQDXSecrets1_1"  Parent="BaseFillingStory">
+		<DisplayName>疯老人</DisplayName>
+		<Desc>老人：“火铜呢！火铜呢？”</Desc>
+		<Selections>
+			<li>
+				<Display>给火铜</Display> 
+				<Tip>身上有火铜矿</Tip>
+				<Condition><![CDATA[	
+				me:CheckItemEquptCount("Item_CopperRock") >= 1
+				]]>
+				</Condition>
+				<OKResult>
+				me:TriggerStory("LQDXSecrets1_2");
+				</OKResult>
+				<NOResult>me:AddMsg("老人白了一眼，[NAME]受伤甚重。");me:AddDamgeFromCache(story.DamageCache,4,0.9);</NOResult>
+			</li>
+			<li>
+				<Display>转头就跑</Display>
+				<OKResult>	
+				me:AddMsg("老人仔细看了两眼，却并未追赶过来，'有趣,有趣'。");
+				</OKResult>
+			</li>
+		</Selections>
+		</Story>
+		
+		<Story Name="LQDXSecrets1_2"  Parent="BaseFillingStory">
+		<DisplayName>疯老人</DisplayName>
+		<Desc>"小辈，你身上有皇主乾坤圣器的气息，你肯定是他的传人！"老人仔细看了你几眼，整个人似乎清醒了一些。</Desc>
+		<Selections>
+			<li>
+				<Display>是的，东皇天下第一！(拿法宝，未来会做本命法宝机制，现在建议功法)</Display> 
+				<Tip></Tip>
+				<OKResult>
+				me:AddMsg("“哈哈，你这小辈挺有意思的，既然你有他的气息，又知他名讳，这小礼物和我这万年宗门秘宝便赐予你了。”只见老人身影虚化，无穷雷劫自头顶形成，他却只是一拳，天便破了一个黑洞。老人身形一闪便消失其中。\n被天地伟力震晕的[NAME]睁眼醒来，发现周围十里之内已无生灵，便迅速拿起东西御器离开了");
+				me:DropAwardItem("Item_LQDXHeXin",1);
+				me:DropFabao(0,"Item_WeaponHalbert2","Item_CopperBlock",XT("火铜大锤"),XT("疯老人手中的大锤，不知杀死过多少人。"),1,9);
+				world:UnlockBuilding("LQDXWeaponMaker");
+				world:UnlockBuilding("LQDXBaGuaLu");
+				me:AddMsg("（现在已解锁建筑：八卦炉，兵器台）");
+				story:FinishSecret();
+				</OKResult>
+			</li>
+			<li>
+				<Display>皇主是谁？（拿器修功法）</Display>
+				<Tip></Tip>
+				<OKResult>	
+				me:AddMsg("“什么东皇传承已经断了？”老人仰天大笑，释放出的气息震死了一名远处的万妖殿妖修。“罢了，皇主已去，道统已绝，你有他的气息，那便是有缘人了。我那分神所创功法，还有我这万年宗门秘宝就传给你吧，就当是我当年和他打赌所付出的代价。“只见老人身影虚化，无穷雷劫自头顶形成，他却只是一拳，天便破了一个黑洞。老人身形一闪便消失其中。\n被天地伟力震晕的[NAME]睁眼醒来，发现周围十里之内已无生灵，便迅速拿起东西御器离开了");
+				me:DropAwardItem("Item_LQDXHeXin",1);
+				me:UnLockGong("Gong_32");
+				world:UnlockBuilding("LQDXWeaponMaker");
+				world:UnlockBuilding("LQDXBaGuaLu");
+				me:AddMsg("（现在已解锁建筑：八卦炉，兵器台）");
+				story:FinishSecret();
+				</OKResult>
+			</li>
+		</Selections>
+		</Story>	
+		
+		<Story Name="Secrets_BanBenKaiQi4"  Parent="BaseFillingStory">
+		<DisplayName>大能出世</DisplayName>
+		<Desc>没有人知道这是好是坏，天道规则仿佛一夜之间变化。无数的材料开始通灵，甚至远古时代才存在的圣级仙级材料，真正的被封印的仙兵都逐渐现世。\n与此同时，一些因各种原因沉睡的上古修行者也陆续苏醒。\n上古之时，修行界尚无如今秩序，只是奉行弱肉强食的理念。这些奉行上古之道的修行者以强横的修为，在短短数天，已在修行界掀起了波澜……</Desc>
+		<Selections>
+			<li>
+				<Display>大能出世</Display> 
+				<OKResult><![CDATA[	
+				for i = 1, world:RandomInt(6,12) do
+					world:AddDaNeng("DaNeng_SpDropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","TongYong_DropList","DaNeng_ZhengFa_EsotericDropList","DaNeng_GodPractice");
+				end
+				 world:SetWorldFlag(3200,1)
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="LQDX_fstbem"  Parent="BaseFillingStory">
+		<DisplayName>天地异象</DisplayName>
+		<Desc>远古天庭的异象惊动了整个修仙界，炎神的投影哪怕是在天极峰也可以看见。所有实力强大的修行者都明白，一把超越神器的圣兵出现了。。。于是，修仙界又将掀起一场腥风血雨，大能也无法置身事外。</Desc>
+		<Selections>
+			<li>
+				<Display>迎战！</Display> 
+				<OKResult>
+				me:AddEnemy(50,0.1);
+				me:AddEnemy(100,0.1);
+				me:AddEnemy(100,0.2);
+				me:AddEnemy(200,0.2);
+				me:AddEnemy(300,0.5);
+				local tb = {}
+				world:GetDaNeng(tb)
+					me:AddSchoolScore(1,me:RandomInt(1000, 2000));
+					for k,v in pairs(tb) do
+						if k == 1 then
+							local gxTitle = v.Title
+							local gxName = v.Name
+							
+							GameUlt.CallDaNeng(v.Name, world:RandomInt(600,900), v);
+							story:FinishSecret();
+						end
+					end
+				story:FinishSecret();
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		<Story Name="BaseLQDXStory">
+		<DamageCache><!--技能物理-->
+			<li PartKind="Bone" Name="Fracture2" Rate="0.15" DescTags="法宝重击"/>
+			<li PartKind="Bone" Name="Fracture3" Rate="0.15" DescTags="法宝重击"/>
+			<li PartKind="Bone" Name="Fracture4" Rate="0.05" DescTags="法宝重击"/>
+			<li PartKind="Bone" Name="Fabao_CutOff" Rate="0.05" DescTags="法宝重击"/>
+
+			<li PartKind="Organ" Name="VisceralRupture" Rate="0.15" DescTags="法宝重击"/>
+			<li PartKind="Organ" Name="Cut2" Rate="0.15" DescTags="法宝重击"/>
+			<li PartKind="Organ" Name="Destroy" Rate="0.05" DescTags="法宝重击"/>
+
+			<li PartKind="Flesh" Name="Cut2" Rate="0.15" DescTags="法宝重击"/>
+			<li PartKind="Flesh" Name="Cut3" Rate="0.15" DescTags="法宝重击"/>
+			<li PartKind="Flesh" Name="Fabao_Tear" Rate="0.05" DescTags="法宝重击"/>
+
+
+
+			<li PartKind="Bone" Name="Jin_BoneNail" Rate="0.02" DescTags="金属性伤害"/>
+			<li PartKind="Organ" Name="Jin_ThunderDamage" Rate="0.02" DescTags="金属性伤害"/>
+			<li PartKind="Flesh" Name="Jin_ThunderDamage" Rate="0.02" DescTags="金属性伤害"/>
+			<li PartKind="Meridian" Name="DiffEnergyInvade" Rate="0.3" DescTags="金属性伤害"/>
+			<li PartName="TheWholeBody" Name="Jin_SwordLight1" Rate="0.02" DescTags="金属性伤害"/>
+
+			<li PartKind="Bone" Name="Mu_Corrosion" Rate="0.02" DescTags="木属性伤害"/>
+			<li PartKind="Organ" Name="Mu_Failure" Rate="0.02" DescTags="木属性伤害"/>
+			<li PartKind="Organ" Name="Mu_Parasitic" Rate="0.02" DescTags="木属性伤害"/>
+			<li PartKind="Flesh" Name="Mu_Corrosion" Rate="0.02" DescTags="木属性伤害"/>
+			<li PartKind="Meridian" Name="DiffEnergyInvade" Rate="0.3" DescTags="木属性伤害"/>
+			<li PartName="TheWholeBody" Name="Mu_VitalityDevour1" Rate="0.02" DescTags="木属性伤害"/>
+
+			<li PartKind="Bone" Name="Shui_ColdPoison" Rate="0.02" DescTags="水属性伤害"/>
+			<li PartKind="Organ" Name="Shui_Frostbite" Rate="0.02" DescTags="水属性伤害"/>
+			<li PartKind="Flesh" Name="Shui_Frostbite" Rate="0.02" DescTags="水属性伤害"/>
+			<li PartKind="Meridian" Name="DiffEnergyInvade" Rate="0.3" DescTags="水属性伤害"/>
+			<li PartName="TheWholeBody" Name="Shui_ColdBlood" Rate="0.02" DescTags="水属性伤害"/>
+
+			<li PartKind="Bone" Name="Huo_MarrowDry" Rate="0.02" DescTags="火属性伤害"/>
+			<li PartKind="Organ" Name="Huo_VisceralBurn" Rate="0.02" DescTags="火属性伤害"/>
+			<li PartKind="Flesh" Name="Huo_BurnOfPain" Rate="0.02" DescTags="火属性伤害"/>
+			<li PartKind="Meridian" Name="DiffEnergyInvade" Rate="0.3" DescTags="火属性伤害"/>
+			<li PartName="Heart" Name="Huo_HeartBurn" Rate="0.02" DescTags="火属性伤害"/>
+
+			<li PartKind="Bone" Name="Tu_Weathering" Rate="0.02" DescTags="土属性伤害"/>
+			<li PartKind="Organ" Name="Tu_Petrifaction1" Rate="0.02" DescTags="土属性伤害"/>
+			<li PartKind="Flesh" Name="Tu_Petrifaction1" Rate="0.02" DescTags="土属性伤害"/>
+			<li PartKind="Meridian" Name="DiffEnergyInvade" Rate="0.3" DescTags="土属性伤害"/>
+			<li PartName="TheWholeBody" Name="Tu_Petrifaction1" Rate="0.02" DescTags="土属性伤害"/>
+			<li PartName="Brain" Name="Tu_BrainClose" Rate="0.02" DescTags="土属性伤害"/>
+		</DamageCache>
+		<ItemCache>  <!--天级材料-->
+			<li>
+				<ThingDef>Item_TianHuoJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianShuiJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianTuJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianJinJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianMuJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianHuoStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianLongStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianShuiStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianNoneStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianDiyuStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianMuStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianDeadStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianDeadWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianFoWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianHuoWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianShuiWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianLearnWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TianLearnWood1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+		</ItemCache>
+		
+		<ItemCache2><!--圣级材料-->
+			<li>
+				<ThingDef>Item_ShengHuoJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengShuiJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengJinJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengBaiJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengXuerouJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengZhuJin</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengYunStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengTuStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengLearnStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengSnakeStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengFengStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengLongStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengGuiWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengLongWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengStarWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ShengFengWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+		</ItemCache2>
+		<ItemCache3>
+			<li>
+				<ThingDef>Item_XianHuJin</ThingDef>
+				<Count>3</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XianLongWood</ThingDef>
+				<Count>3</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XianFengStone</ThingDef>
+				<Count>3</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XianGuiStone</ThingDef>
+				<Count>3</Count>
+				<Rate>0.3</Rate>
+			</li>
+		</ItemCache3>
+		</Story>
+
+
+		<Story Name="Secrets_LQDXcl_1"  Parent="BaseLQDXStory">
+		<DisplayName>圣材出土</DisplayName>
+		<Desc>[NAME]在[PLACE]发现圣材即将出土，大量修行者在周围徘徊。</Desc>
+		<Selections>
+			<li>
+				<Display>争夺</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 4 
+				]]>
+				</Condition>
+				<Tip>道行，修为，机缘</Tip>
+				<OKResult>
+				
+				local nR = world:RandomSchool(-4,4);
+				local sR = world:GetSchoolName(nR);
+				local nQ = me:RandomInt(1, 10)
+				local nT = me:GetLuck()
+				local nU = me:GetDaoHang()
+				local nV = me:GetGLevel()
+				local nW = nQ*6+(nT*nU*nV)/400
+				if nW >= 85 then
+					me:AddMsg(XT("一众修行者等待一会儿后，天地灵气突然紊乱，宝光闪烁，竟然是圣级材料出世。\n一番混战后，你凭着高深莫测的修为，毫无阻碍地拿到了圣材，在场修行者莫敢不从。。"));
+					if (10-nQ) >=5 then me:AddMsg(XT("\n甚至有数位名门修道胚子闻讯想加入门派。"));
+						me:AddJoiners(me:RandomInt(1, 3),nQ/2+4,2,me:RandomInt(0, 3),me:RandomInt(0, 3),me:RandomInt(0, 3),me:RandomInt(0, 3),me:RandomInt(0, 3));
+						me:AddSchoolRelation(nR,25);
+					end
+					me:AddSchoolScore(1,me:RandomInt(1, 200));
+					me:DropAwardItemFromCache(story.ItemCache2, 1, me:RandomInt(1, 3));
+					story:FinishSecret();
+				elseif nW >=70 then
+					me:AddMsg(XT("一众修行者等待一会儿后，天地灵气突然紊乱，宝光闪烁，竟然是圣级材料出世。\n一番激烈地抢夺后，你凭着远超同阶的战力，击退数位名门高手之后夺得圣材，名声大振。\n然而，几位与你有怨的邪修却闻讯赶来偷袭门派，意图截胡。"));
+					me:AddSchoolRelation(nR,-25);
+					me:AddSchoolScore(1,me:RandomInt(100, 200));
+					me:DropAwardItemFromCache(story.ItemCache2, 1, 1);
+					me:AddEnemy(100,0.5,Rich );
+					story:FinishSecret();
+				elseif nW >=55 then
+					me:AddMsg(XT("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你加入战场，横扫六合，另外几个高修为者见势不妙，逃遁而走，将材料拱手送人。你在这一战中声名鹊起，境界又上一层楼。"));
+					me:AddSchoolScore(1,me:RandomInt(50, 100));
+					me:DropAwardItemFromCache(story.ItemCache, 1, me:RandomInt(3, 5));
+					me:AddPracticeResource ("Stage",nQ*nU*nV*nU);
+					story:FinishSecret();
+				elseif nW >=35 then
+					me:AddMsg(XT("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你加入战场，尽管已经抢到大部分圣材，但心神俱疲之下被{0}的首席弟子偷袭，身受重伤，损失了大部分所得，狼狈遁走。"), sR);
+					me:AddSchoolRelation(nR,-85);
+					me:AddSchoolScore(1,me:RandomInt(-50, 50));
+					me:AddDamgeFromCache(story.DamageCache,3,0.5);
+					me:DropAwardItemFromCache(story.ItemCache, 1, 2);
+					story:FinishSecret();
+				elseif nW >= 20 then
+					me:AddMsg("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你试图加入战场，却由于距离太远敌人太多，无缘圣材。但在与多人切磋对敌之中，你若有所悟，竟然领悟了一门秘籍。");
+					me:AddSchoolScore(1,10);
+					me:LearnEsotericCustomize(XT("战悟—"), me:GetGElementKind(), 0, true, world:RandomFloat(0,2.5), 3, 0, XT("随机的"));
+					story:FinishSecret();
+				else  
+					me:AddMsg("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你试图加入争夺，但是修为实在太低，不仅没有抢到圣材，反而惹上了散修，被追着逃回门派。");
+					me:AddEnemy(50,1);
+					story:FinishSecret();
+				end
+				
+				</OKResult>
+				<NOResult>
+				me:AddMsg(XT("[NAME]的修为实在太低了，还是快快离开，去提高了修为再来吧。"));
+				me:AddDamgeFromCache(story.DamageCache,1);								
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]不想惹这些瘟神，毕竟自己可能打不过，扭头就走。"));
+				
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Secrets_LQDXcl_2"  Parent="BaseLQDXStory">
+		<DisplayName>圣材出土</DisplayName>
+		<Desc>[NAME]在[PLACE]发现圣材即将出土，大量修行者在周围徘徊。</Desc>
+		<Selections>
+			<li>
+				<Display>争夺</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 9 
+				]]>
+				</Condition>
+				<Tip>道行，修为，机缘</Tip>
+				<OKResult>
+				
+				local nR = world:RandomSchool(-4,4);
+				local sR = world:GetSchoolName(nR);
+				local nQ = me:RandomInt(1, 8)
+				local nT = me:GetLuck()
+				local nU = me:GetDaoHang()
+				local nV = me:GetGLevel()
+				local nW = nQ*6+(nT*nU*nV)/300
+				
+				if nW >= 100 then
+				local tb = {}
+				world:GetDaNeng(tb)
+						me:AddMsg(XT("你永远忘不了这一幕，仙气自山中而出，绝天通地间，暗淡了天边的残阳。云深之处仙乐阵阵，灵光逸散间隐有龙虎星河之影。在场每个人都感到与道相合，或飘然欲飞升，或返朴化红尘，或心悟天机破了万古桎梏，证道人间。\n这是修仙界的大盛事，竟然有传说中的仙级材料现世。\n你明白很快各大门派大能将赶来，此地不宜久留。于是以盖世修为力压群雄，尽管付出的代价已伤及根本，但成功地将仙材全部敛去。\n然而，你没有想到的是，一位隐世古修竟一直跟在你身后。"));
+					me:AddSchoolScore(1,me:RandomInt(1000, 2000));
+					me:DropAwardItemFromCache(story.ItemCache3, 1, 1);
+					me:AddDamgeFromCache(story.DamageCache,3,0.5);
+					for k,v in pairs(tb) do
+						if k == 1 then
+							local gxTitle = v.Title
+							local gxName = v.Name
+							
+							GameUlt.CallDaNeng(v.Name, world:RandomInt(600,900), v);
+							story:FinishSecret();
+						end
+					end
+				story:FinishSecret();
+				elseif nW >= 85 then
+					me:AddMsg(XT("一众修行者等待一会儿后，天地灵气突然紊乱，宝光闪烁，圣级材料出世。\n一番混战后，你凭着高深莫测的修为，毫无阻碍地拿到了圣材，在场修行者莫敢不从。。"));
+					if (10-nQ) >=5 then me:AddMsg(XT("\n甚至有数位名门修道胚子闻讯想加入门派。"));
+						me:AddJoiners(me:RandomInt(1, 3),nQ/2+4,2,me:RandomInt(0, 3),me:RandomInt(0, 3),me:RandomInt(0, 3),me:RandomInt(0, 3),me:RandomInt(0, 3));
+						me:AddSchoolRelation(nR,25);
+					end
+					me:AddSchoolScore(1,me:RandomInt(1, 200));
+					me:DropAwardItemFromCache(story.ItemCache2, 1, me:RandomInt(1, 3));
+					story:FinishSecret();
+				elseif nW >=70 then
+					me:AddMsg(XT("一众修行者等待一会儿后，天地灵气突然紊乱，宝光闪烁，圣级材料出世。\n一番激烈地抢夺后，你凭着远超同阶的战力，击退数位名门高手之后夺得圣材，名声大振。\n然而，几位与你有怨的邪修却闻讯赶来偷袭门派，意图截胡。"));
+					me:AddSchoolRelation(nR,-25);
+					me:AddSchoolScore(1,me:RandomInt(100, 200));
+					me:DropAwardItemFromCache(story.ItemCache2, 1, 1);
+					me:AddEnemy(100,0.5,Richest );
+					story:FinishSecret();
+				elseif nW >=55 then
+					me:AddMsg(XT("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你加入战场，横扫六合，另外几个高修为者见势不妙，逃遁而走，将材料拱手送人。你在这一战中声名鹊起，境界又上一层楼。"));
+					me:AddSchoolScore(1,me:RandomInt(50, 100));
+					me:DropAwardItemFromCache(story.ItemCache, 1, me:RandomInt(3, 5));
+					me:AddPracticeResource ("Stage",nQ*nU*nV*nU);
+					story:FinishSecret();
+				elseif nW >=35 then
+					me:AddMsg(XT("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你加入战场，尽管已经抢到大部分圣材，但心神俱疲之下被{0}的首席弟子偷袭，身受重伤，损失了大部分所得，狼狈遁走。"), sR);
+					me:AddSchoolRelation(nR,-85);
+					me:AddSchoolScore(1,me:RandomInt(-50, 50));
+					me:AddDamgeFromCache(story.DamageCache,3,0.5);
+					me:DropAwardItemFromCache(story.ItemCache, 1, 2);
+					story:FinishSecret();
+				elseif nW >= 20 then
+					me:AddMsg("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你试图加入战场，却由于距离太远敌人太多，无缘圣材。但在与多人切磋对敌之中，你若有所悟，竟然领悟了一门秘籍。");
+					me:AddSchoolScore(1,10);
+					me:LearnEsotericCustomize(XT("战悟—"), me:GetGElementKind(), 0, true, world:RandomFloat(0,2.5), 3, 0, XT("随机的"));
+					story:FinishSecret();
+				else  
+					me:AddMsg("你刚到此地，便发现材料已经出世，众修行者混战成一团。\n你试图加入争夺，但是修为实在太低，不仅没有抢到圣材，反而惹上了散修，被追着逃回门派。");
+					me:AddEnemy(50,1);
+					story:FinishSecret();
+				end
+				
+				</OKResult>
+				<NOResult>
+				me:AddMsg(XT("[NAME]的修为实在太低了，还是快快离开，去提高了修为再来吧。"));
+				me:AddDamgeFromCache(story.DamageCache,1);								
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]不想惹这些瘟神，毕竟自己可能打不过，扭头就走。"));
+				
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Secrets_LQDXfb_1"  Parent="BaseLQDXStory">
+		<DisplayName>法宝现世</DisplayName>
+		<Desc>[NAME]在[PLACE]发现法宝即将出土，几个修行者在周围徘徊。</Desc>
+		<Selections>
+			<li>
+				<Display>尝试争夺</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 4 
+				]]>
+				</Condition>
+				<Tip>道行，修为，机缘</Tip>
+				<OKResult>
+				
+				local nR = world:RandomSchool(-4,4);
+				local sR = world:GetSchoolName(nR);
+				local nQ = me:RandomInt(1, 10)
+				local nT = me:GetLuck()
+				local nU = me:GetDaoHang()
+				local nV = me:GetGLevel()
+				local nW = nQ*6+(nT*nU*nV)/600
+				array = {"Item_WeaponKnife0","Item_WeaponKnife0","Item_WeaponKnife0","Item_WeaponLance1","Item_WeaponLance1","Item_WeaponLance1","Item_WeaponSword0","Item_WeaponSword0","Item_WeaponSword0","Item_WeaponHalbert0","Item_WeaponHalbert0","Item_WeaponHalbert0","Item_WeaponAxeRing0","Item_WeaponAxeRing0","Item_WeaponAxeRing0","Item_SysAcupuncture","Item_Dice","Item_SmallBell","Item_Bracelet"}
+				string1 = array[me:RandomInt(1,19)];
+				
+				if nQ ==1 then 
+					me:AddMsg(XT("[NAME]等人正欲一决胜负，突然天边传来阵阵灵压，一个刺耳的声音传来:‘小辈给我速速滚开！’众人大惊失色，这气息恐怕比派中大能也丝毫不逊色，估计正是如今风头正盛的古修，于是急忙散去。\n但你却知道，这古修出世恐怕与门中所传的疯老人不无关系，于是在他炼化法宝之后，跟了上去。"));
+					me:TriggerStory("Secrets_DaNengChuShi1");
+					story:FinishSecret();
+				elseif nQ == 2 then
+					me:AddMsg(XT("明光闪烁间，一道宝光疾飞而出，正是那上古至宝。但明显众人错估了这法宝的战力，只见那光芒几个闪烁间，洞穿了数个元神期修士的丹田，恐怖至极。众人见势不妙，皆开始御剑逃遁。\n"));
+					if nT >= 6 then 
+						me:AddMsg(XT("[NAME]逃了一阵，发现身边已无他人气息，浑身冷意渐起。一转头便发现那法宝悄无声息地跟在自己身后！但是它并未伤害你，而是直接冲入你的怀中，再无凶煞之气。"));
+						me:DropFabao(0,string1,nil,nil,nil,1,me:RandomInt(6, 12));
+					story:FinishSecret();
+					else 
+						me:AddMsg(XT("但因为[NAME]飞的不够快，被那光芒击中后背，从半空中落下，剩了半条命。"));
+						me:AddDamgeFromCache(story.DamageCache,2);	
+					story:FinishSecret();
+					end
+				elseif nQ == 3 then
+					me:AddMsg(XT("光芒一闪而过，没有法宝出现。反而是地动山摇间，一座破败的洞府出现了。"));
+					me:TriggerStory("Secrets_DongFuAppear");
+					story:FinishSecret();
+				elseif nQ == 4 then 
+					me:AddMsg(XT("法宝现世后，众人开始了争夺，但是争斗渐渐平和了下来，因为所有人都察觉到了角落中一行黑衣人不对劲。\n'哟，被发现了呀，不过太迟了。'{0}的邪修桀桀笑着，引爆了众人争夺的法宝。一个血红的大阵升起，将所有人包了起来。\n[NAME]左砍右杀，虽然身负重伤，但成功逃出了邪修的陷阱。"),sR);
+					me:AddDamgeFromCache(story.DamageCache,2);
+					me:AddSchoolRelation(nR,-185);
+					story:FinishSecret();
+				else 
+					me:AddMsg(XT("[NAME]力压群雄，抢到了这件普通的法宝。"));
+					me:DropFabao(0,string1,nil,nil,nil,1,me:RandomInt(6, 10));
+				end
+				
+					
+					
+				
+				</OKResult>
+				<NOResult>
+				me:AddMsg(XT("[NAME]的修为实在太低了，还是快快离开，去提高了修为再来吧。"));
+				me:AddDamgeFromCache(story.DamageCache,1);								
+				</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]不想惹这些瘟神，毕竟自己可能打不过，扭头就走。"));
+				
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

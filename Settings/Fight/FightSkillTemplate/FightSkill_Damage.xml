@@ -1,0 +1,75 @@
+﻿<FightSkills><List>
+	<Skill Name="LQDX_0_XB">
+		<DisplayName>星爆</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5</SingTime>
+		<CD>600</CD>
+		<LingCost>0</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>LQDX_XB</ClassName>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>18</MissileEffect>
+		<HitEffect>42</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="LQDX_0_WJGZ">
+		<DisplayName>万剑归宗</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>9</SingTime>
+		<CD>999</CD>
+		<Icon>Spr/Object/JN/ZT_TTMG/FZBY.png</Icon>
+		<LingCost>50000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>0</Value>
+		<Value2>99</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		<ClassName>LQDX_WJGZ</ClassName>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="LQDX_0_ZMHSKILL">
+		<DisplayName>炎爆</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Huo</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5</SingTime>
+		<CD>60</CD>
+		<LingCost>0</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>30</MissileEffect>
+		<HitEffect>39</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+</List></FightSkills>

@@ -1,0 +1,418 @@
+﻿<SkillTree><List>
+	<Node Name="LQDX序列0" Gong="Gong_32">
+		<Esoterica>Magic_AbsorbGong_8_1</Esoterica>
+		<DisplayName>清心咒</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="LQDX序列12" Gong="Gong_32">
+		<Esoterica>技能LQDX摘星剑</Esoterica>
+		<DisplayName>摘星剑</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>LQDX序列12_1</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="LQDX序列12_1" Gong="Gong_32">
+		<Esoterica>技能LQDX星汉腾光剑阵</Esoterica>
+		<DisplayName>星汉腾光剑阵</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="LQDX序列15_1" Gong="Gong_32">
+		<Esoterica>技能LQDX求知之境1</Esoterica>
+		<DisplayName>求知之境</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>LQDX序列15_2</li>
+			<li>LQDX序列15_3</li>
+			<li>LQDX序列15_4</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="LQDX序列15_2" Gong="Gong_32">
+		<Esoterica>技能LQDX求知之境2</Esoterica>
+		<DisplayName>求知之境</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="LQDX序列15_3" Gong="Gong_32">
+		<Esoterica>技能LQDX求知之境3</Esoterica>
+		<DisplayName>求知之境</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="LQDX序列15_4" Gong="Gong_32">
+		<Esoterica>技能LQDX求知之境4</Esoterica>
+		<DisplayName>求知之境</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="LQDX序列16" Gong="Gong_32">
+		<Esoterica>技能LQDX开炉八法</Esoterica>
+		<DisplayName>开炉八法</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="LQDX序列16_1" Gong="Gong_32">
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,2,1</Line>	
+	</Node>
+	<Node Name="LQDX序列16_2" Gong="Gong_32">
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,1,2,0</Line>	
+	</Node>
+	<Node Name="LQDX序列22" Gong="Gong_32">
+		<Esoterica>技能LQDX陨日剑</Esoterica>
+		<DisplayName>陨日剑</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>LQDX序列22_1</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+<Node Name="LQDX序列22_1" Gong="Gong_32">
+		<Esoterica>技能LQDX煌空斩真剑意</Esoterica>
+		<DisplayName>煌空斩真剑意</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="LQDX序列26" Gong="Gong_32">
+		<Esoterica>技能LQDX丛云剑意</Esoterica>
+		<DisplayName>丛云剑意</DisplayName>
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="LQDX序列31" Gong="Gong_32">
+		<Esoterica>技能LQDX灵火百纹锻体</Esoterica>
+		<DisplayName>灵火百纹锻体</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="LQDX序列42" Gong="Gong_32">
+		<Esoterica>技能LQDX析构法宝</Esoterica>
+		<DisplayName>析构法宝</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="LQDX序列45" Gong="Gong_32">
+		<Esoterica>Magic_BuidPuppet</Esoterica>
+		<DisplayName>赋灵术</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="LQDX序列43" Gong="Gong_32">
+		<Esoterica>技能LQDX天火开神秀</Esoterica>
+		<DisplayName>天火开神秀</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Layers>
+			<li>LQDX序列43_1</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+<Node Name="LQDX序列43_1" Gong="Gong_32">
+		<Esoterica>技能LQDX封神天兵</Esoterica>
+		<DisplayName>封神天兵</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	
+	<Node Name="LQDX序列44" Gong="Gong_32">
+		<Esoterica>技能LQDX天海琅星魂意</Esoterica>
+		<DisplayName>天海琅星魂意</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Layers>
+			<li>LQDX序列44_1</li>
+		</Layers>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+<Node Name="LQDX序列44_1" Gong="Gong_32">
+		<Esoterica>技能LQDX星爆</Esoterica>
+		<DisplayName>星爆</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	
+	<Node Name="LQDX序列46" Gong="Gong_32">
+		<Esoterica>技能LQDX汲风纳水</Esoterica>
+		<DisplayName>汲风纳水</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="LQDX序列47" Gong="Gong_32">
+		<Esoterica>技能LQDX五行炼神决</Esoterica>
+		<DisplayName>五行炼神决</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="LQDX序列433" Gong="Gong_32">
+		<Esoterica>技能LQDX铸天兵</Esoterica>
+		<DisplayName>铸天兵</DisplayName>
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="LQDX序列999" Gong="Gong_32">
+		<Esoterica>技能LQDX万剑归宗</Esoterica>
+		<DisplayName>万剑归宗</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,10,10,10</FiveBase>
+		<Skills>
+			<li Name="Fabao" Level="60"/>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="LQDX序列486" Gong="Gong_32">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="LQDX序列436" Gong="Gong_32">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="LQDX序列mb1" Gong="Gong_32">
+		<Esoterica>Esoterica_MiBao_LQDX1</Esoterica>
+		<DisplayName>传说：北辰剑</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>9</GodCount>
+	</Node>
+	<Node Name="LQDX序列mb2" Gong="Gong_32">
+		<Esoterica>Esoterica_MiBao_LQDX2</Esoterica>
+		<DisplayName>传说：仙人泪</DisplayName>
+		<Level>God2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>9</GodCount>
+	</Node>
+	<Node Name="LQDX序列mb3" Gong="Gong_32">
+		<Esoterica>Esoterica_MiBao_LQDX3</Esoterica>
+		<DisplayName>传说：龙凤阴阳子母环</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>9</GodCount>
+	</Node>
+	<Node Name="LQDX序列mb4" Gong="Gong_32">
+		<Esoterica>Esoterica_MiBao_LQDX4</Esoterica>
+		<DisplayName>传说：血肉的呓语</DisplayName>
+		<Level>God2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>9</GodCount>
+	</Node>
+	<Node Name="LQDX序列mb5" Gong="Gong_32">
+		<Esoterica>Esoterica_MiBao_LQDX5</Esoterica>
+		<DisplayName>传说：六道轮回大涅盘</DisplayName>
+		<Level>God2</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>9</GodCount>
+	</Node>
+	<Node Name="LQDX序列mb6" Gong="Gong_32">
+		<Esoterica>Esoterica_MiBao_LQDX6</Esoterica>
+		<DisplayName>传说：青莲仙剑</DisplayName>
+		<Level>God2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="30"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>9</GodCount>
+	</Node>
+
+</List></SkillTree>

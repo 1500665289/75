@@ -1,0 +1,11 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="LQDX_WXTZLD" Type="Normal">
+		<DisplayName>联动无限挑战</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LQDX_WXTZLD</LuaClassName>
+	</Modifier> 
+</List></ModifierDefs>

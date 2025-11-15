@@ -1,0 +1,495 @@
+﻿<Esotericas><List>
+
+	<Esoterica Name="技能LQDX摘星剑">
+		<DisplayName>摘星剑</DisplayName>
+		<Icon>res/Sprs/ui/icon_shenguo_yu01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>楼上仙人饮琼浆，手摘星辰洗剑光。剑出虽柔，然如星河浩渺，永世不息。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]减少大量法宝根本威力
+增加3回灵倍率[/color][/size]</EffectDesc>
+		<Modifier>LQDX摘星剑</Modifier>
+		<Mutex>
+			<li>技能LQDX陨日剑</li>
+		</Mutex>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	
+	<Esoterica Name="技能LQDX星汉腾光剑阵">
+		<DisplayName>星汉腾光剑阵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_yu01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>二十六层楼不传秘剑之一，由摘星剑衍化而来，可御多剑成阵，剑法华丽而奇诡多变。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提升大量阵法负荷\n增加3法宝数量[/color][/size]</EffectDesc>
+		<Modifier>LQDX星汉腾光剑阵</Modifier>	
+		<Mutex>
+			<li>技能LQDX陨日剑</li>
+		</Mutex>
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	
+	
+	<Esoterica Name="技能LQDX求知之境1">
+		<DisplayName>求知之境</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>求知之心，求道之意，唯知道之人登天下至高。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加少量根本灵气
+		提升少量心境
+		增加少量炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>LQDX求知之境1</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	<Esoterica Name="技能LQDX求知之境2">
+		<DisplayName>求知之境</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>求知之心，求道之意，唯知道之人登天下至高。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加少量根本灵气
+		提升少量心境
+		增加少量炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>LQDX求知之境2</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	<Esoterica Name="技能LQDX求知之境3">
+		<DisplayName>求知之境</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>求知之心，求道之意，唯知道之人登天下至高。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加少量根本灵气
+		提升少量心境
+		增加少量炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>LQDX求知之境3</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+	</Esoterica>
+	<Esoterica Name="技能LQDX求知之境4">
+		<DisplayName>求知之境</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>求知之心，求道之意，唯知道之人登天下至高。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加少量根本灵气
+		提升少量心境
+		增加少量炼器成功率[/color][/size]</EffectDesc>
+		<Modifier>LQDX求知之境4</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+	</Esoterica>
+
+
+
+	<Esoterica Name="技能LQDX开炉八法">
+		<DisplayName>开炉八法</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>二十六层楼专属炼器法，三大规律，八大手法，尽管会降低炼器速度，但会令法宝质量有大飞跃。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]降低少量炼器速度
+提升所有炼器加成[/color][/size]</EffectDesc>
+		<Modifier>LQDX开炉八法</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+
+	<Esoterica Name="技能LQDX陨日剑">
+		<DisplayName>陨日剑</DisplayName>
+		<Icon>res/Sprs/ui/icon_shenguo_po</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>我辈修士，登临天顶，无非是要出剑如日陨，天地齐光明。一剑既出，便无归期。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]法宝数量归一
+超量提升法宝根本灵气
+减少法宝回灵[/color][/size]</EffectDesc>
+		<Modifier>LQDX陨日剑</Modifier>
+		<Mutex>
+			<li>技能LQDX摘星剑</li>
+		</Mutex>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	<Esoterica Name="技能LQDX煌空斩真剑意">
+		<DisplayName>煌空斩真剑意</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_po</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>二十六层楼不传秘剑之一，由陨日剑衍化而来，将法宝炼为本命圣器，以本命剑斩真我，大幅增强自身御剑之道与五行抗性。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加大量法宝根本威力
+					突破御器极限15级
+					增加五行抗性[/color][/size]</EffectDesc>
+		<Modifier>LQDX煌空斩真剑意</Modifier>
+		<Mutex>
+			<li>技能LQDX摘星剑</li>
+		</Mutex>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	<Esoterica Name="技能LQDX析构法宝">
+		<DisplayName>析构法宝</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_del</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>曾经二十六层楼跻身绝世宗门的核心秘法，以身为剑炉，灵力为焰，一颗悟道之心为引，吞噬并解析天下法宝来提升实力，最终登顶层楼，触手飞升。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：析构法宝\n可吞噬法宝，根据法宝属性来获得各种加成\n但未来只可以吞噬法宝修炼[/color][/size]</EffectDesc>
+		<Modifier>LQDX析构法宝</Modifier>	
+		<Magics>
+			<li>LQDX_0_XGFB</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="技能LQDX五行炼神决">
+		<DisplayName>五行炼神决</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>13</Difficulty>
+		<Desc>曾经二十六层楼跻身绝世宗门的核心秘法，仙灵结晶为引，五行圣铁为体，强化法宝，带来不可控变化。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：五行炼神决\n仙灵结晶为引，五行圣铁为体，强化法宝，带来不可控变化，神器炼成越高，效果越好。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>LQDX_0_WXLS</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="技能LQDX天火开神秀">
+		<DisplayName>天火开神秀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_mo</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>12</Difficulty>
+		<Desc>集古天庭之火，号令天下万千铸器之炉，归位八方火部，唤上古炎神之力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Mutex>
+			<li>技能LQDX摘星剑</li>
+		</Mutex>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]必定神器，但会加大炼器难度\n大量法宝强度\n大量法宝灵力与回灵[/color][/size]</EffectDesc>
+		<Modifier>LQDX天火开神秀</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="技能LQDX封神天兵">
+		<DisplayName>封神天兵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_pi</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以某物为引，传唤上古天庭，众神破界为自身法宝封神，同时使两个物品强制提升品阶。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<Mutex>
+			<li>技能LQDX摘星剑</li>
+		</Mutex>
+		<EffectDesc>[size=10][color=#D06508]习得神通：封神天兵\n以某物为引，传唤上古天庭，众神破界为自身法宝封神，同时使两个物品强制提升品阶(最高二十六阶)\n但自己会付出极大代价，同时引动天地异像。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>LQDX_0_FSTB</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="技能LQDX天海琅星魂意">
+		<DisplayName>天海琅星魂意</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_hai</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>12</Difficulty>
+		<Desc>凝星河之力入神魂，以星海之魂枢御器，大幅提升神魂强度。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]加3阵法上限\n大量法术强度\n中量法宝回灵[/color][/size]</EffectDesc>
+		<Modifier>LQDX天海琅星魂意</Modifier>
+		<Mutex>
+			<li>技能LQDX陨日剑</li>
+		</Mutex>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="技能LQDX星爆">
+		<DisplayName>星爆</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_qing</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>毁灭自己的一把法宝，回复所有人灵气，并强行封印其它敌人法宝。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得法术：星爆\n毁灭自己的一把法宝，回复所有人灵气，并强行封印其它敌人法宝的威力与灵气上限90秒。[/color][/size]</EffectDesc>
+		<Skills>
+			<li>LQDX_0_XB</li>
+		</Skills>
+		<Mutex>
+			<li>技能LQDX陨日剑</li>
+		</Mutex>
+	</Esoterica>
+	
+	<Esoterica Name="技能LQDX汲风纳水">
+		<DisplayName>汲风纳水</DisplayName>
+		<Hide>0</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_lie</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>纳天机风水之力归己身，可突破天赋极限，但也会损坏根基。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：汲风纳水\n用50点根灵，将一个风水物品变为普通物品，吸收风水之力强化自身\n获得随机一级等级上限，大量参悟[/color][/size]</EffectDesc>
+		<Modifier></Modifier>	
+		<Magics>
+			<li>LQDX_0_JFNS</li>
+		</Magics>
+	</Esoterica>
+
+	<Esoterica Name="技能LQDX丛云剑意">
+		<DisplayName>丛云剑意</DisplayName>
+		<Icon>res/Sprs/ui/icon_shenguo_yun</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>剑出如云，起舞弄清影，乃当年南宫红与云中子交手而悟。被莫名记载其上。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提升中量法宝威力
+							提升少量根本法宝回灵
+					减少3级护体[/color][/size]</EffectDesc>
+		<Modifier>LQDX丛云剑意</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+
+	<Esoterica Name="技能LQDX灵火百纹锻体">
+		<DisplayName>灵火百纹锻体</DisplayName>
+		<Icon>res/Sprs/ui/icon_shenguo_chi</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>以灵气化火，将肉身炼化刻纹，助炼器之力。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提升中量护盾
+提升中量炼器品阶加成
+减少3级御器[/color][/size]</EffectDesc>
+		<Modifier>LQDX灵火百纹锻体</Modifier>	
+		<Spells></Spells>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	
+	<Esoterica Name="技能LQDX万剑归宗">
+		<DisplayName>登顶层楼，万剑归宗</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr/Object/JN/ZT_TTMG/FZBY.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Desc>将曾经纳入剑炉的法宝重新投影至人间，天地只余一声：剑来！</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得极限法术：万剑归宗[/color][/size]</EffectDesc>	
+		<Skills>
+			<li>LQDX_0_WJGZ</li>
+		</Skills>
+		<Magics></Magics>
+		<Dans></Dans>
+	</Esoterica>
+	
+	
+	<Esoterica Name="技能LQDX铸天兵">
+		<DisplayName>铸天兵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_shenguo_pi</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>二十六层楼不传之秘，可将法器灵气内敛，重新铸造为兵器。重铸的神兵威力非凡，极致可伤武夫体魄。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 神通：铸天兵\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>LQDX_0_ZTB</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Esoterica_MiBao_LQDX1">
+		<DisplayName>传说：北辰剑</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Icon>object\guSword_0013.png</Icon>
+		<Hide>2</Hide>
+		<GLevel>God2</GLevel>
+		<Desc>。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：北辰剑\n[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_LQDX1</li>
+		</Fabaos>
+		<Mutex>
+			<li>Esoterica_MiBao_LQDX2</li>
+			<li>Esoterica_MiBao_LQDX3</li>
+			<li>Esoterica_MiBao_LQDX4</li>
+			<li>Esoterica_MiBao_LQDX5</li>
+			<li>Esoterica_MiBao_LQDX6</li>
+		</Mutex>
+	</Esoterica>
+	<Esoterica Name="Esoterica_MiBao_LQDX2">
+		<DisplayName>传说：仙人泪</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Icon>Spr\Object\DAN\NP\SXW2.PNG</Icon>
+		<Hide>2</Hide>
+		<GLevel>God2</GLevel>
+		<Desc>。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：仙人泪\n[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_LQDX2</li>
+		</Fabaos>
+		<Mutex>
+			<li>Esoterica_MiBao_LQDX1</li>
+			<li>Esoterica_MiBao_LQDX3</li>
+			<li>Esoterica_MiBao_LQDX5</li>
+			<li>Esoterica_MiBao_LQDX4</li>
+			<li>Esoterica_MiBao_LQDX6</li>
+		</Mutex>
+	</Esoterica>
+	<Esoterica Name="Esoterica_MiBao_LQDX3">
+		<DisplayName>传说：龙凤阴阳子母环</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Icon>Spr\Object\WP1\FQ4.PNG</Icon>
+		<Hide>2</Hide>
+		<GLevel>God2</GLevel>
+		<Desc>。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：龙凤阴阳子母环\n[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_LQDX3</li>
+		</Fabaos>
+		<Mutex>
+			<li>Esoterica_MiBao_LQDX1</li>
+			<li>Esoterica_MiBao_LQDX2</li>
+			<li>Esoterica_MiBao_LQDX4</li>
+			<li>Esoterica_MiBao_LQDX5</li>
+			<li>Esoterica_MiBao_LQDX6</li>
+		</Mutex>
+	</Esoterica>
+	<Esoterica Name="Esoterica_MiBao_LQDX4">
+		<DisplayName>传说：血肉的呓语</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Icon>Spr\Object\WP\ZTYMZD.png</Icon>
+		<Hide>2</Hide>
+		<GLevel>God2</GLevel>
+		<Desc>。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：血肉的呓语\n[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_LQDX4</li>
+		</Fabaos>
+		<Mutex>
+			<li>Esoterica_MiBao_LQDX1</li>
+			<li>Esoterica_MiBao_LQDX2</li>
+			<li>Esoterica_MiBao_LQDX3</li>
+			<li>Esoterica_MiBao_LQDX5</li>
+			<li>Esoterica_MiBao_LQDX6</li>
+		</Mutex>
+	</Esoterica>
+	<Esoterica Name="Esoterica_MiBao_LQDX5">
+		<DisplayName>传说：六道轮回大涅盘</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Icon>Spr\Object\DAN\NP\DHD1.png</Icon>
+		<Hide>2</Hide>
+		<GLevel>God2</GLevel>
+		<Desc>。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：六道轮回大涅盘\n[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_LQDX5</li>
+		</Fabaos>
+		<Mutex>
+			<li>Esoterica_MiBao_LQDX1</li>
+			<li>Esoterica_MiBao_LQDX2</li>
+			<li>Esoterica_MiBao_LQDX3</li>
+			<li>Esoterica_MiBao_LQDX4</li>
+			<li>Esoterica_MiBao_LQDX6</li>
+		</Mutex>
+	</Esoterica>
+	<Esoterica Name="Esoterica_MiBao_LQDX6">
+		<DisplayName>传说：青莲仙剑</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>99</Difficulty>
+		<Icon>object\guSword_0021.png</Icon>
+		<Hide>2</Hide>
+		<GLevel>God2</GLevel>
+		<Desc>。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：青莲仙剑\n[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_LQDX6</li>
+		</Fabaos>
+		<Mutex>
+			<li>Esoterica_MiBao_LQDX1</li>
+			<li>Esoterica_MiBao_LQDX2</li>
+			<li>Esoterica_MiBao_LQDX3</li>
+			<li>Esoterica_MiBao_LQDX4</li>
+			<li>Esoterica_MiBao_LQDX5</li>
+		</Mutex>
+	</Esoterica>
+
+</List></Esotericas>

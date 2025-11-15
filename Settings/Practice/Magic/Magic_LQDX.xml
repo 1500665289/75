@@ -1,0 +1,88 @@
+﻿<Magics><List>
+	
+	<Magic Name="LQDX_0_XGFB" Type="Class">
+		<DisplayName>析构法宝</DisplayName>
+		<Desc>析构法宝(destructor) 与构造法宝相反，当对象结束其生命周期，如对象法宝已调用完毕时，系统自动执行析构法宝。析构法宝往往用来做“清理善后” 的工作（例如在建立对象时用new开辟了一片内存空间，delete会自动调用析构函数后释放内存）。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>300</Param1>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>LQDX_XGFB</ClassName>
+		<TargetDesc>请选择一件法宝（真仙境界不可用）。</TargetDesc>
+		<CostLing>1000</CostLing>
+	</Magic>
+	<Magic Name="LQDX_0_WXLS" Type="Class">
+		<DisplayName>五行炼神决</DisplayName>
+		<Desc>仙灵结晶为引，五行圣铁为体，强化法宝，带来不可控变化，神器炼成越高，效果越好。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>300</Param1>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>LQDX_WXLS</ClassName>
+		<TargetDesc>请选择一件法宝。</TargetDesc>
+		<CostLing>50000</CostLing>
+		<ItemCost>
+			<li name="Item_TianHuoJin" count="7"/>
+			<li name="Item_TianMuJin" count="7"/>
+			<li name="Item_TianJinJin" count="7"/>
+			<li name="Item_TianShuiJin" count="7"/>
+			<li name="Item_TianTuJin" count="7"/>
+			<li name="Item_TianNoneStone" count="9"/>
+		</ItemCost>
+	</Magic>
+	<Magic Name="LQDX_0_JFNS" Type="Class">
+		<DisplayName>汲风纳水</DisplayName>
+		<Desc>用99点根本灵气，将一个风水物品变为普通物品，吸收风水之力强化自身\n获得随机一级等级上限，大量参悟。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>90</Param1>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>LQDX_JFNS</ClassName>
+		<TargetDesc>请选择一件风水镇物。</TargetDesc>
+		<CostLing>1000</CostLing>
+	</Magic>
+	<Magic Name="LQDX_0_FSTB" Type="Class">
+		<DisplayName>封神天兵</DisplayName>
+		<Desc>以某物为引，传唤上古天庭，众神破界为自身法宝封神，同时使两个物品强制提升品阶(最高二十六阶)\n但自己会付出极大代价，同时引动天地异像（灭门警告）。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>300</Param1>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>LQDX_FSTB</ClassName>
+		<TargetDesc>请选择一件物品。</TargetDesc>
+		<CostLing>999999</CostLing>
+		<CostAge>666</CostAge>
+	</Magic>
+	<Magic Name="LQDX_0_ZTB" Type="Class">
+		<DisplayName>铸天兵</DisplayName>
+		<Desc>二十六层楼不传之秘，可将法器灵气内敛，重新铸造为兵器。重铸的神兵威力非凡，极致可伤武夫体魄。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>3</Param1>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>LQDX_ZTB</ClassName>
+		<TargetDesc>请选择一件9阶以上武器类法宝。</TargetDesc>
+		<CostLing>9</CostLing>
+		<CostAge>0</CostAge>
+	</Magic>
+</List></Magics>

@@ -1,0 +1,10 @@
+﻿<Experiences><List>
+	<Experience Name="Experiences_LQDX">
+		<DisplayName>二十六层楼传承</DisplayName>
+		<Desc>古仙南宫红的功法，实际上为上古器宗二十六层楼的传承。\n解锁功法：[color=#D06508]《琼楼剑御玄典》[/color]</Desc>
+		<Point>3</Point>
+		<Gongs>
+			<li>Gong_32</li>
+		</Gongs>
+	  </Experience>
+</List></Experiences>

@@ -1,0 +1,3614 @@
+﻿<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_LQDXHeXin" Parent="MiBaoBase">
+	<ThingName>器炉核心</ThingName>
+	<TexPath>res\Sprs\object\object_lingjing01</TexPath>	
+	<Desc>上古炼器宗门二十六层楼的镇派之宝，可以召唤八卦炉的一丝投影，在东皇灭世时失踪。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>26</Rate>
+	<ElementKind>None</ElementKind>
+	
+	<IllustratedHandLabel>Curiosity</IllustratedHandLabel>
+	<Item Lable="Other">
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianHuoJin" Parent="MetalBase">
+	<ThingName>诛火圣金</ThingName>
+	<TexPath>res\Sprs\object\object_huojingingot</TexPath>
+	<Desc>融入了火灵根的天火之力，散发着滚滚热浪。</Desc>
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+			<li>Smooth1</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>诛火</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_copper</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>A33428FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_CopperBlock" count = "99"/>
+				<Item name = "Item_HuoEssence" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>12</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>	
+	<Heat>
+		<Value>100</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengHuoJin" Parent="MetalBase">
+	<ThingName>寂火死金</ThingName>
+	<TexPath>res\Sprs\object\object_Silveringot</TexPath>
+	<Desc>被杀死了火属性的奇异金属，同时表现出了水、火、无的特性。属于少见的圣级材料。。</Desc>
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="4000"/>
+				<SalePrice Value="3500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="4500" />
+				<SalePrice Value="4500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+			<li>Smooth1</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>寂火</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_copper</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>D3F4FFFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>99</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>99</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1500</WorkToMake>
+			<CostItems>
+				<Item name = "Item_CopperBlock1" count = "3"/>
+				<Item name = "Item_Dan_CureShuiDamage" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>1</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Heat>
+		<Value>-30</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianShuiJin" Parent="MetalBase">
+	<ThingName>冰莲纹银</ThingName>
+	<TexPath>res\Sprs\object\object_hanjingingot</TexPath>
+	<Desc>融入了水灵根的冰灵之力，散发着丝丝幽冷。</Desc>
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Soft1</li>
+			<li>Smooth2</li>
+			<li>PhysicalLables_Shui</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>冰莲</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffColorWeight>0</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>D3F4FFFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_SilverBlock" count = "99"/>
+				<Item name = "Item_ShuiEssence" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>12</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Heat>
+		<Value>-50</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengShuiJin" Parent="MetalBase">
+	<ThingName>漠冰死金</ThingName>
+	<TexPath>res\Sprs\object\object_Silveringot</TexPath>
+	<Desc>被杀死了水属性的奇异金属，同时表现出了水、土、无的特性。属于少见的圣级材料。</Desc>
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="4000"/>
+				<SalePrice Value="3500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="4500" />
+				<SalePrice Value="4500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+			<li>Smooth1</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>漠冰</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_copper</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>9E5100FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>99</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>99</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1500</WorkToMake>
+			<CostItems>
+				<Item name = "Item_SilverBlock1" count = "3"/>
+				<Item name = "Item_Dan_CureTuDamage" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>1</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianTuJin" Parent="MetalBase">
+	<ThingName>大地神铁</ThingName>
+	<TexPath>res\Sprs\object\object_ironingot</TexPath>
+	<Desc>融入了土灵根的大地之力，散发着厚厚压迫。</Desc>
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>Rough1</li>
+			<li>PhysicalLables_Tu</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>大地</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffColorWeight>0</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>573B00FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_JadeBlock" count = "22"/>
+				<Item name = "Item_IronBlock" count = "99"/>
+				<Item name = "Item_TuEssence" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>12</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianJinJin" Parent="MetalBase">
+	<ThingName>斩天玄金</ThingName>
+	<TexPath>res\Sprs\object\object_blackironingot</TexPath>
+	<Desc>融入了金灵根的破天之力，散发着凌冽锋芒。</Desc>
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+			<li>Smooth1</li>
+			<li>PhysicalLables_Jin</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>斩天</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffColorWeight>0</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>446E83FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_DarksteelBlock" count = "99"/>
+				<Item name = "Item_JinEssence" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>12</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengJinJin" Parent="MetalBase">
+	
+	<ThingName>刃星锭</ThingName>
+	<TexPath>res\Sprs\object\object_stariron</TexPath>
+	<Desc>星髓锭中加入七杀剑丸之力，配合大量铁矿，历经四四十六天煅烧冶炼，散发的剑意足以斩破星辰。是金属性的圣级材料。</Desc>
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="4000"/>
+				<SalePrice Value="3500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="3500" />
+				<SalePrice Value="3000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Hard2</li>
+			<li>Smooth1</li>
+			<li>Jins</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>剑斩星辰</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_xingsui</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>7A68A7FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>99</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>19</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>6000</WorkToMake>
+			<CostItems>
+				<Item name = "Item_IronRock" count = "16"/>
+				<Item name = "Item_StarEssenceBlock" count = "9"/>
+				<Item name = "Item_Dan_SwordBall" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>20</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengBaiJin" Parent="MetalBase">
+	
+	<ThingName>白仙之识</ThingName>
+	<TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
+	<Desc>昔年青莲剑仙的一缕仙识，剑意可以凝聚成金属的质感。</Desc>
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="4000"/>
+				<SalePrice Value="3500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="3500" />
+				<SalePrice Value="3000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Light1</li>
+			<li>HighDensity2</li>
+			<li>Hard1</li>
+			<li>Nones</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>白</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_xingsui</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>7A68A7FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>99</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>19</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_WhiteHair" count = "1"/>
+				<Item name = "Item_XianDaoShenNian" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>None</Kind>
+		<Value>20</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianMuJin" Parent="MetalBase">
+	<ThingName>天枯道铜</ThingName>
+	<TexPath>res\Sprs\object\object_Silveringot</TexPath>
+	<Desc>融入了木灵根的轮回之力，散发着寂灭与生命。</Desc>
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Light1</li>
+			<li>Soft1</li>
+			<li>LowDensity1</li>
+			<li>PhysicalLables_Mu</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>天枯</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffColorWeight>0</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>276E89FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_CopperBlock" count = "66"/>
+				<Item name = "Item_SilverBlock" count = "66"/>
+				<Item name = "Item_MuEssence" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>12</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengXuerouJin" Parent="MetalBase">
+	<ThingName>血肉红铜</ThingName>
+	<TexPath>res\Sprs\object\object_huojingingot</TexPath>
+	<Desc>邪异的古怪金属，可以吞噬血肉并成长，有着极高的温度。</Desc>
+	<Rate>11</Rate>
+	<Beauty>0</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="6000"/>
+				<SalePrice Value="5500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="7500" />
+				<SalePrice Value="8000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Soft2</li>
+			<li>Huos</li>
+			<li>GreatThing_Attack1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>血肉</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_copper</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>A33428FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>2800</WorkToMake>
+			<CostItems>
+				<Item name = "Item_CopperBlock1" count = "10"/>
+				<Item name = "Item_FishMeat" count = "3"/>
+				<Item name = "Item_BossLong_Meat" count = "3"/>
+				<Item name = "Item_Yao_BoarMeat" count = "3"/>
+				<Item name = "Item_EarthEssence1_1" count = "1"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>-60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>12</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>	
+	<Heat>
+		<Value>100</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengZhuJin" Parent="MetalBase">
+	<ThingName>烛火</ThingName>
+	<TexPath>res/Sprs/object/object_hundunlongyu01</TexPath>
+	<Desc>烛隐虚妄，月明影殇。独饮寂寞，观世惆怅。</Desc>
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="6000"/>
+				<SalePrice Value="5500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="7500" />
+				<SalePrice Value="7000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>Smooth2</li>
+			<li>Jins</li>
+			<li>Nones</li>
+			<li>GreatThing_Attack1</li>
+			<li>MiaoHui</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>烛火</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_copper</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>A33428FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>9</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_StarEssence" count = "5"/>
+				<Item name = "Item_BossZhuLong_TianLin" count = "1"/>
+				<Item name = "Item_BossZhuLong_Meat" count = "15"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>3</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>	
+	<Heat>
+		<Value>0</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianHuoStone" Parent="RockBase">
+	<ThingName>卓燚妖石</ThingName>
+	<TexPath>res/Sprs/object/object_xionghuangxuerou01</TexPath>	
+	<Desc>以燃魂之法点燃妖灵血而出的妖火熔炼大量玉石而生。高温之中带着扭曲的妖气。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity2</li>
+			<li>Rough1</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>卓燚</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Dan_Soul4" count = "1"/>
+				<Item name = "Item_MonsterBlood" count = "9"/>
+				<Item name = "Item_JadeBlock" count = "99"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>10</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianLongStone" Parent="RockBase">
+	<ThingName>游龙圭</ThingName>
+	<TexPath>res/Sprs/object/object_shi01</TexPath>	
+	<Desc>带着龙之气息的粘土？？？似乎有龙魂在里面游动。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>0</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity1</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>GreatThing_Attack</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>游龙</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_SkyStoneBlock" count = "2"/>
+				<Item name = "Item_DragonShit" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>10</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianShuiStone" Parent="RockBase">
+	<ThingName>夜明冰晶</ThingName>
+	<TexPath>res/Sprs/object/object_benyuanshui01</TexPath>	
+	<Desc>能在夜晚发出清冷光芒，冰冷而通透的美丽水晶。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity2</li>
+			<li>Smooth2</li>
+			<li>PhysicalLables_Shui</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冰夜</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_SilverBlock1" count = "6"/>
+				<Item name = "Item_JadeEssence" count = "21"/>
+				<Item name = "Item_SoulCrystalLing" count = "7"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>10</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>400</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>10</FailRadius>
+		<Radius>30</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianNoneStone" Parent="RockBase">
+	<ThingName>仙灵结晶</ThingName>
+	<TexPath>res/Sprs/object/object_lingjing01</TexPath>	
+	<Desc>凝聚了大量灵晶灵气的美丽水晶，灵气堪比千棱神玉。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity2</li>
+			<li>Smooth1</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>仙灵</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "3"/>
+				<Item name = "Item_Jade" count = "9"/>
+				<Item name = "Item_Dan_WuLingSan" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>10</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianDiyuStone" Parent="RockBase">
+	<ThingName>阿鼻地狱之土</ThingName>
+	<TexPath>res/Sprs/object/object_refuse</TexPath>	
+	<Desc>传言来自地狱的土壤，有着污秽人心的力量。恶臭中带着鬼哭。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>0</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>PhysicalLables_Tu</li>
+			<li>GreatThing_Attack</li>
+			<li>LowDensity2</li>
+			<li>Soft2</li>
+			<li>Rough1</li>
+			<li>Gravel</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>地狱</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Shit" count = "33"/>
+				<Item name = "Item_SoulCrystalYou" count = "7"/>
+				<Item name = "Item_Dan_LostSoul" count = "1"/>
+				<Item name = "Item_BrownRockBlock" count = "99"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>-50</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>1</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>0</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianMuStone" Parent="RockBase">
+	<ThingName>神农石</ThingName>
+	<TexPath>res/Sprs/object/object_ore</TexPath>	
+	<Desc>被大量药草与生命之水浸染的石头，有着大量的生命气息。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>10</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>PhysicalLables_Mu</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>Rough2</li>
+			<li>HighDensity2</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>神农</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Healroot" count = "99"/>
+				<Item name = "Item_LifeStream" count = "1"/>
+				<Item name = "Item_BrownRock" count = "44"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>11</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianDeadStone" Parent="RockBase">
+	<ThingName>死石</ThingName>
+	<TexPath>res/Sprs/object/object_brick</TexPath>	
+	<Desc>被杀死了土属性的奇异岩石，同时表现出了木、土、无的特性。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity2</li>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+			<li>Rough1</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>死石</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Dan_CureMuDamage" count = "1"/>
+				<Item name = "Item_SkyStoneBlock" count = "2"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>1</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengYunStone" Parent="RockBase">
+	<ThingName>七星云石</ThingName>
+	<TexPath>res/Sprs/object/object_benyuanwu01</TexPath>	
+	<Desc>传说中天云之力的具象化身，凝聚了七星神力，每一颗都有着沟通天地的力量。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity2</li>
+			<li>Heavy1</li>
+			<li>Hard2</li>
+			<li>Nones</li>
+			<li>GreatThing_Attack1</li>
+			<li>GreatThing_Ling1</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>星云</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "4"/>
+				<Item name = "Item_ShengStarWood" count = "4"/>
+				<Item name = "Item_SkyStone" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>1</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengTuStone" Parent="RockBase">
+	<ThingName>负地元磁石</ThingName>
+	<TexPath>res/Sprs/object/object_yinyangjiejing01</TexPath>	
+	<Desc>七仟坞以无底洞之石，混合大地神铁，以地母灵液为媒介，用星髓之锋利气息将其粉碎重组而成。通体漆黑无光，有极强的磁力。乃七仟坞不传之秘。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>Hard1</li>
+			<li>Rough1</li>
+			<li>Tus</li>
+			<li>GreatThing_Attack1</li>
+			<li>MiaoHui</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>元磁</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_TianTuJin" count = "3"/>
+				<Item name = "Item_StarEssence" count = "1"/>
+				<Item name = "Item_EarthEssence" count = "2"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengLearnStone" Parent="RockBase">
+	<ThingName>文昌墨</ThingName>
+	<TexPath>res/Sprs/object/object_plaster</TexPath>	
+	<Desc>以游龙圭土，辅以浩然文气炼化天地乐章，浸以一枚黑鳞而成的天下至墨。所有用其写出的文字皆有言出法随之效</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			<li>Heavy1</li>
+			<li>Rough1</li>
+			<li>Tus</li>
+			<li>GreatThing_Attack1</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>文昌</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>2100</WorkToMake>
+			<CostItems>
+				<Item name = "Item_FunMusic" count = "3"/>
+				<Item name = "Item_TianLongStone" count = "3"/>
+				<Item name = "Item_Water" count = "1000"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengSnakeStone" Parent="RockBase">
+	<ThingName>蛇纹石</ThingName>
+	<TexPath>res/Sprs/object/object_shedan01</TexPath>	
+	<Desc>取大量蛇之元，精炼于天柱石之上，似乎是蛇族化龙之关键。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>HighDensity2</li>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+			<li>Rough1</li>
+			<li>Tus</li>
+			<li>PhysicalLables_Shui</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蛇纹</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>2100</WorkToMake>
+			<CostItems>
+				<Item name = "Item_SkyStone" count = "1"/>
+				<Item name = "Item_SnakeGallbladder" count = "27"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengFengStone" Parent="RockBase">
+	<ThingName>地心髓</ThingName>
+	<TexPath>res/Sprs/object/object_xiemaixuequan01</TexPath>	
+	<Desc>以火羽之温强行熔炼妖灵血与玉髓，类似地心岩浆却永不冷却。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>HighDensity2</li>
+			<li>Heavy1</li>
+			<li>Rough1</li>
+			<li>Huos</li>
+			<li>PhysicalLables_Tu</li>
+			<li>GreatThing_Attack1</li>
+			<li>Liquid</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>地火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>6100</WorkToMake>
+			<CostItems>
+				<Item name = "Item_JadeEssence" count = "33"/>
+				<Item name = "Item_MonsterBlood" count = "99"/>
+				<Item name = "Item_BossFeng_HuoYu" count = "2"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>400</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>5</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengLongStone" Parent="RockBase">
+	<ThingName>龙鳞玄玉</ThingName>
+	<TexPath>res/Sprs/object/object_sheyaohanlin01</TexPath>	
+	<Desc>龙游深渊，吟歌一方。万灵尽俯，睥睨八荒。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>Hard1</li>
+			<li>Smooth1</li>
+			<li>Shuis</li>
+			<li>Tus</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>龙</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>10100</WorkToMake>
+			<CostItems>
+				<Item name = "Item_ExtremeJade" count = "5"/>
+				<Item name = "Item_BossLong_Meat" count = "15"/>
+				<Item name = "Item_BossLong_Lin" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>20</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianDeadWood" Parent="WoodBase">
+	<ThingName>死木</ThingName>
+	<TexPath>res/Sprs/object/object_brick</TexPath>	
+	<Desc>被杀死了木属性的奇异木材，同时表现出了木、金、无的特性。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>Hard1</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>死木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Dan_CureJinDamage" count = "1"/>
+				<Item name = "Item_SkyStoneBlock" count = "2"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>1</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianFoWood" Parent="WoodBase">
+	<ThingName>佛莲木</ThingName>
+	<TexPath>res/Sprs/object/object_LotusRoot</TexPath>	
+	<Desc>取九九之数莲心，以佛教秘法拓其意境加诸于灵木之上。移动间隐有佛偈莲影相生。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>Hard1</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>佛莲</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>800</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingWood" count = "1"/>
+				<Item name = "Item_Lotusroot" count = "99"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianHuoWood" Parent="WoodBase">
+	<ThingName>炭</ThingName>
+	<TexPath>res/Sprs/object/object_Jerkymeat</TexPath>	
+	<Desc>以诛火圣金灼烧灵木所成之木炭，灵气氤氲间火光不散。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>木炭</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3700</WorkToMake>
+			<CostItems>
+				<Item name = "Item_TianHuoJin" count = "1"/>
+				<Item name = "Item_LingWood" count = "4"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>5</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianShuiWood" Parent="WoodBase">
+	<ThingName>风云木</ThingName>
+	<TexPath>res/Sprs/object/object_wood001</TexPath>	
+	<Desc>取火精之高温，浇灌大量冷水以产生大量水汽，再以符箓之道将水汽铭刻成云纹于金丝灵木之上。木材中隐隐透着风云之力。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>Hard1</li>
+			<li>PhysicalLables_Shui</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>风云木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>3900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_CopperBlock1" count = "1"/>
+				<Item name = "Item_Water" count = "1000"/>
+				<Item name = "Item_SpellPaper" count = "8"/>
+				<Item name = "Item_HardWoodBlock" count = "23"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>5</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengGuiWood" Parent="WoodBase">
+	<ThingName>邪鬼木</ThingName>
+	<TexPath>res/Sprs/object/object_langyamu01</TexPath>	
+	<Desc>以大量邪道材料为引，生炼活魂为祭品来承载鬼神邪念，附于木材之上。整块木头黑红相间，不断有黑影鬼物浮现，令道心不稳者视之即疯。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>Hard1</li>
+			<li>Mus</li>
+			<li>Nones</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>邪鬼</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>4500</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Wood" count = "99"/>
+				<Item name = "Item_EarthEssence1" count = "9"/>
+				<Item name = "Item_XieHunLu" count = "3"/>
+				<Item name = "Item_XianDaoXieNian" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>-80</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>1</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianLearnWood" Parent="WoodBase">
+	<ThingName>文曲木</ThingName>
+	<TexPath>res/Sprs/object/object_WoodBlock01</TexPath>	
+	<Desc>以秘术引动文曲星力，将书中经义烙印于凡木之上，有清风徐来自翻书之效。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>Hard1</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>文曲</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>700</WorkToMake>
+			<CostItems>
+				<Item name = "Item_FunPoem" count = "1"/>
+				<Item name = "Item_HardWood" count = "3"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>3</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TianLearnWood" Parent="WoodBase">
+	<ThingName>文恭纸</ThingName>
+	<TexPath>res/Sprs/object/object_fuzhou01b</TexPath>	
+	<Desc>传说是山下那位六朝状元所用之纸，却是比山上修仙者的符纸更难炼制。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>8</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_None</li>
+			<li>GreatThing_Attack</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>文恭</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1600</WorkToMake>
+			<CostItems>
+				<Item name = "Item_SpellPaper" count = "9"/>
+				<Item name = "Item_LingMuXueJie" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>1</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengLongWood" Parent="WoodBase">
+	<ThingName>雷魂木</ThingName>
+	<TexPath>res/Sprs/object/object_wood02</TexPath>	
+	<Desc>蕴含了天劫伟力的神木，雷光闪耀间可以淬炼神魂。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Mus</li>
+			<li>GreatThing_Attack1</li>
+			<li>GreatThing_Ling</li>
+			<li>Smooth2</li>
+			<li>Hard2</li>
+			<li>Elastic</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雷魂</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>19000</WorkToMake>
+			<CostItems>
+				<Item name = "Item_ParasolWood" count = "12"/>
+				<Item name = "Item_ThunderAir" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengStarWood" Parent="WoodBase">
+	<ThingName>周天星海木</ThingName>
+	<TexPath>res/Sprs/object/object_fenghuangdan01</TexPath>	
+	<Desc>天地纵广，星海苍茫。吾为归客，游于逆旅。莲生三二，云隐六七。十九棋道，不过囚笼。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>Hard2</li>
+			<li>Nones</li>
+			<li>GreatThing_Attack1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>天星</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>1900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_TianLearnWood" count = "9"/>
+				<Item name = "Item_FunChess" count = "1"/>
+				<Item name = "Item_FeiLeather" count = "19"/>
+				<Item name = "Item_LuShuLeather" count = "19"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>0</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShengFengWood" Parent="WoodBase">
+	<ThingName>凤血圣木</ThingName>
+	<TexPath>res/Sprs/object/object_zhuyuzhi01</TexPath>	
+	<Desc>凤栖梧桐，血染天光。百鸟朝凤，乌雀归乡。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>11</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Elastic</li>
+			<li>GreatThing_Ling</li>
+			<li>Hard1</li>
+			<li>Mus</li>
+			<li>Huos</li>
+			<li>GreatThing_Attack1</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>凤血</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>9900</WorkToMake>
+			<CostItems>
+				<Item name = "Item_BossFeng_TouYu" count = "1"/>
+				<Item name = "Item_BossFeng_Meat" count = "15"/>
+				<Item name = "Item_ParasolWood" count = "15"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>55</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>20</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>40</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	<Heat>
+		<Value>999</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XianHuJin" Parent="MetalBase">
+	<ThingName>白虎魂金</ThingName>
+	<TexPath>res\Sprs\object\object_stariron</TexPath>
+	<Desc>曾经的大陆上，有着五只圣兽，统御众兽。而那次仙魔大战，它们与人间联手击杀了天魔尊飞羽，此后它们都以陷入沉睡为代价，加固了仙魔两界的空间。于是，四位剑仙和一位人族至高体修，去拜访了他们。从此之后的天下，便出现妖兽与凶兽。
+</Desc>
+	<Rate>12</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="26000"/>
+				<SalePrice Value="25000" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="13000" />
+				<SalePrice Value="13000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>Smooth2</li>
+			<li>Jinss</li>
+			<li>Xian</li>
+			<li>GreatThing_Attack2</li>
+		</PhysicalLables>
+		
+		<BeMaterial>
+			<NamePrefix>白虎圣灵</NamePrefix>
+			<CostMultiplier>1</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_xingsui</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.6</WorkSpeedCoefficientWhenBeMain>
+			<AttackSpeedWhenBeMain>0.15</AttackSpeedWhenBeMain>
+			
+			<ColorWhenBeMain>7A68A7FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>
+			<LingNumberRate>0.8</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>99</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>19</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.7</PracticeEffectivenessWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>26000</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Yao_TigerZhui" count = "3"/>
+				<Item name = "Item_ShengJinJin" count = "26"/>
+				<Item name = "Item_BenYuan_Jin" count = "9"/>
+			</CostItems>
+		</BeMade> 
+	</Item>	
+	<Ling>
+		<AddionLing>90</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.95</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.6</Absorption>
+		<Accommodate>40</Accommodate>
+	</Ling>
+	<Light>
+			<Value>1500</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+	</Light>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>200</Value>         
+		<Radius>4</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XianLongWood" Parent="WoodBase">
+	<ThingName>青龙魂木</ThingName>
+	<TexPath>res/Sprs/object/object_wood02</TexPath>	
+	<Desc>曾经的大陆上，有着五只圣兽，统御众兽。而那次仙魔大战，它们与人间联手击杀了天魔尊飞羽，此后它们都以陷入沉睡为代价，加固了仙魔两界的空间。于是，四位剑仙和一位人族至高体修，去拜访了他们。从此之后的天下，便出现妖兽与凶兽。
+</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="26000"/>
+				<SalePrice Value="25000" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="15000" />
+				<SalePrice Value="15000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>Muss</li>
+			<li>GreatThing_Attack2</li>
+			<li>GreatThing_Ling1</li>
+			<li>Smooth2</li>
+			<li>Hard2</li>
+			<li>Elastic</li>
+			<li>Xian</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>青龙玄灵</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>26000</WorkToMake>
+			<CostItems>
+				<Item name = "Item_BossLong_NiLin" count = "3"/>
+				<Item name = "Item_ShengLongWood" count = "26"/>
+				<Item name = "Item_BenYuan_Mu" count = "9"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>55</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>100</Value>         
+		<Radius>3</Radius>
+		<Failing>0.6</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>400</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XianFengStone" Parent="RockBase">
+	<ThingName>朱雀魂液</ThingName>
+	<TexPath>res/Sprs/object/object_xiemaixuequan01</TexPath>	
+	<Desc>曾经的大陆上，有着五只圣兽，统御众兽。而那次仙魔大战，它们与人间联手击杀了天魔尊飞羽，此后它们都以陷入沉睡为代价，加固了仙魔两界的空间。于是，四位剑仙和一位人族至高体修，去拜访了他们。从此之后的天下，便出现妖兽与凶兽。
+</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="26000"/>
+				<SalePrice Value="25000" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="15000" />
+				<SalePrice Value="15000" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>HighDensity2</li>
+			<li>Heavy1</li>
+			<li>Huoss</li>
+			<li>GreatThing_Attack2</li>
+			<li>Liquid</li>
+			<li>GreatThing_Ling</li>
+			<li>Xian</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>朱雀炽灵</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<LingNumberRate>0.8</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>12</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>26000</WorkToMake>
+			<CostItems>
+				<Item name = "Item_BossFeng_HongYu" count = "3"/>
+				<Item name = "Item_BenYuan_Huo" count = "9"/>
+				<Item name = "Item_ShengFengStone" count = "26"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>165</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>100</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>400</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>5</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	<Heat>
+		<Value>1000</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.4</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XianGuiStone" Parent="RockBase">
+	<ThingName>玄武魂石</ThingName>
+	<TexPath>res\Sprs\object\object_juguijia01</TexPath>	
+	<Desc>曾经的大陆上，有着五只圣兽，统御众兽。而那次仙魔大战，它们与人间联手击杀了天魔尊飞羽，此后它们都以陷入沉睡为代价，加固了仙魔两界的空间。于是，四位剑仙和一位人族至高体修，去拜访了他们。从此之后的天下，便出现妖兽与凶兽。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>Rough2</li>
+			<li>Tus</li>
+			<li>Shuiss</li>
+			<li>GreatThing_Attack2</li>
+			<li>Xian</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>玄武劫灵</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>40</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			
+			<LingNumberRate>0.8</LingNumberRate>
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>26000</WorkToMake>
+			<CostItems>
+				<Item name = "Item_Yao_TurtleKe" count = "3"/>
+				<Item name = "Item_Yao_SnakeHanLin" count = "3"/>
+				<Item name = "Item_BenYuan_Shui" count = "9"/>
+				<Item name = "Item_ShengSnakeStone" count = "26"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>175</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>100</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>400</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XianTianStone" Parent="RockBase">
+	<ThingName>补天石</ThingName>
+	<TexPath>res\Sprs\object\object_tianjiezhixi</TexPath>	
+	<Desc>如今已经没有多少修士记得，十万年的那场盛事。千古一帝，八国为阵，人间愿力。那个时代，红尘压倒了山巅，神灵行走世间，正魔两道集体关闭山门。七十二位九天神明，代表人间，集体问剑仙界！那一场战争，生灵涂炭，仙人两通，神明断绝，那位帝王不知所踪。直到最终，三清出手，开炉熔炼神灵碎片，集五行阴阳之精华，炼成六十四块补天之石，修补天道，重分两界，才回归平稳。</Desc>
+	<!--<Color>5F6D7BFF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>99</Beauty>
+	<ElementKind>Chaos</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="2000"/>
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="1500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1500" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Fix0</li>
+			 
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>Smooth2</li>
+			<li>Noness</li>
+			<li>GreatThing_Attack2</li>
+			<li>Xian</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>补天</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			<StuffColorWeight>-1.35</StuffColorWeight>
+			
+			<MaxHitPointsPerNum>400</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>6879BAFF</ColorWhenBeMain>
+			
+			<LingNumberRate>20</LingNumberRate>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>0.6</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.6</WorktoMakeRate>
+			<WorktoBuildRate>1.6</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>6000</WorkToMake>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "Rock"/>
+				<Stuff name = "Metal"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+				<Item name = "Item_BenYuan_Huo" count = "1"/>
+				<Item name = "Item_BenYuan_Tu" count = "1"/>
+				<Item name = "Item_BenYuan_Jin" count = "1"/>
+				<Item name = "Item_BenYuan_Mu" count = "1"/>
+				<Item name = "Item_BenYuan_Shui" count = "1"/>
+				<Item name = "Item_Dan_TreeEXP" count = "9"/>
+			</CostItems>
+		</BeMade> 
+    </Item>
+	<Ling>
+		<AddionLing>220</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>-10</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>400</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+	
+</List></ThingDefs>

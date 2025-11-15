@@ -1,0 +1,45 @@
+﻿<FabaoFormulas><List>
+	<!-- 五毒诛仙剑 -->
+	<Fabao Name="MiBaoFormula_LQDX2">
+		<Normal>0</Normal>
+		<ItemName>LQDX_MiBao_XianRenLei</ItemName>
+		<Level>40</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="MiBaoFormula_LQDX1">
+		<Normal>0</Normal>
+		<ItemName>LQDX_MiBao_BeiChenJian</ItemName>
+		<Level>40</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="MiBaoFormula_LQDX3">
+		<Normal>0</Normal>
+		<ItemName>LQDX_MiBao_YinYangHuan</ItemName>
+		<Level>40</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="MiBaoFormula_LQDX4">
+		<Normal>0</Normal>
+		<ItemName>LQDX_MiBao_XuanRouYiYu</ItemName>
+		<Level>40</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="MiBaoFormula_LQDX5">
+		<Normal>0</Normal>
+		<ItemName>LQDX_MiBao_DaNiePan</ItemName>
+		<Level>40</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	<Fabao Name="MiBaoFormula_LQDX6">
+		<Normal>0</Normal>
+		<ItemName>LQDX_MiBao_QinLianJian</ItemName>
+		<Level>40</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+</List></FabaoFormulas>
